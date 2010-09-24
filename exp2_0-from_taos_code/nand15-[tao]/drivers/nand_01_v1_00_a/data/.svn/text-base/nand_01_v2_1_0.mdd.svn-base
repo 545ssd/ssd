@@ -1,0 +1,16 @@
+##############################################################################
+## Filename:          C:\timSSD\nand13\drivers/nand_01_v1_00_a/data/nand_01_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Thu Dec 03 18:23:46 2009 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER nand_01_v1_00_a
+
+  OPTION supported_peripherals = (nand_01_v1_00_a);
+  OPTION depends = (common_v1_00_a);
+  OPTION DESC = new FSL core;
+  OPTION copyfiles = all;
+
+END DRIVER

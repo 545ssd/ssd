@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MB_Halted</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">I_ADDRTAG</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">D_ADDRTAG</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_ABUS</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_BE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_BUSLOCK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_DBUS</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_REQUEST</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_RNW</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_SELECT</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DM_SEQADDR</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_ABUS</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_BE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_BUSLOCK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_DBUS</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_REQUEST</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_RNW</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_SELECT</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">IM_SEQADDR</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Instruction</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Valid_Instr</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_PC</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Reg_Write</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Reg_Addr</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_MSR_Reg</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_PID_Reg</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_New_Reg_Value</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Exception_Taken</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Exception_Kind</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Jump_Taken</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Delay_Slot</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Data_Address</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Data_Access</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Data_Read</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Data_Write</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Data_Write_Value</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_Data_Byte_Enable</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_DCache_Req</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_DCache_Hit</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_ICache_Req</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_ICache_Hit</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_OF_PipeRun</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_EX_PipeRun</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_MEM_PipeRun</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Trace_MB_Halted</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL1_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL1_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL1_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL1_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL1_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL1_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL2_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL2_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL2_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL2_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL2_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL2_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL3_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL3_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL3_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL3_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL3_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL3_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL4_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL4_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL4_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL4_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL4_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL4_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL5_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL5_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL5_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL5_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL5_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL5_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL6_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL6_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL6_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL6_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL6_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL6_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL7_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL7_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL7_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL7_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL7_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL7_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL8_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL8_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL8_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL8_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL8_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL8_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL9_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL9_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL9_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL9_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL9_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL9_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL10_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL10_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL10_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL10_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL10_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL10_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL11_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL11_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL11_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL11_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL11_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL11_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL12_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL12_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL12_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL12_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL12_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL12_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL13_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL13_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL13_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL13_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL13_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL13_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL14_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL14_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL14_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL14_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL14_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL14_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL15_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL15_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL15_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL15_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL15_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL15_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ICACHE_FSL_IN_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ICACHE_FSL_IN_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ICACHE_FSL_OUT_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ICACHE_FSL_OUT_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ICACHE_FSL_OUT_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ICACHE_FSL_OUT_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DCACHE_FSL_IN_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DCACHE_FSL_IN_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DCACHE_FSL_OUT_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DCACHE_FSL_OUT_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DCACHE_FSL_OUT_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1229</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DCACHE_FSL_OUT_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_Rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MPLB_Rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_dcrAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_dcrDBus</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SaddrAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SMRdErr</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SMWrErr</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SMBusy</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SrdBTerm</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SrdComp</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SrdDAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SrdDBus</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SrdWdAddr</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_Srearbitrate</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_Sssize</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_Swait</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SwrBTerm</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SwrComp</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PLB_SwrDAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1560</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bus_Error_Det</arg>&apos; of component &apos;<arg fmt="%s" index="4">mb_plb_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1767</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Interrupt</arg>&apos; of component &apos;<arg fmt="%s" index="4">rs232_uart_1_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1816</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Interrupt</arg>&apos; of component &apos;<arg fmt="%s" index="4">rs232_uart_2_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT3</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT4</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT5</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT6</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT7</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT8</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT9</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT10</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT11</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT12</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT13</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT14</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKOUT15</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKFBOUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1865</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PSDONE</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_generator_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Interrupt</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MDM_DBus</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MDM_errAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MDM_retry</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MDM_toutSup</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MDM_xferAck</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_2</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_3</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_4</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_5</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_6</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Clk_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_TDI_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Reg_En_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Capture_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Shift_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Update_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Dbg_Rst_7</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_tdi</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_reset</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_shift</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_update</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_capture</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_sel1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">bscan_drck1</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_S_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_S_READ</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_M_CLK</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_M_WRITE</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_M_DATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL0_M_CONTROL</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_DRCK</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_RESET</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_SEL</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_CAPTURE</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_SHIFT</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_UPDATE</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">1894</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Ext_JTAG_TDI</arg>&apos; of component &apos;<arg fmt="%s" index="4">mdm_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RstcPPCresetcore_0</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RstcPPCresetchip_0</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RstcPPCresetsys_0</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RstcPPCresetcore_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RstcPPCresetchip_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">RstcPPCresetsys_1</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2047</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Peripheral_Reset</arg>&apos; of component &apos;<arg fmt="%s" index="4">proc_sys_reset_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2071</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Rst</arg>&apos; of component &apos;<arg fmt="%s" index="4">nand_01_0_to_microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2071</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Full</arg>&apos; of component &apos;<arg fmt="%s" index="4">nand_01_0_to_microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2071</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Has_Data</arg>&apos; of component &apos;<arg fmt="%s" index="4">nand_01_0_to_microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2071</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Control_IRQ</arg>&apos; of component &apos;<arg fmt="%s" index="4">nand_01_0_to_microblaze_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2091</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_S_Clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">nand_01_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2091</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_M_Clk</arg>&apos; of component &apos;<arg fmt="%s" index="4">nand_01_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Full</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_to_nand_01_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Has_Data</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_to_nand_01_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/hdl/system.vhd</arg>&quot; line <arg fmt="%d" index="2">2134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">FSL_Control_IRQ</arg>&apos; of component &apos;<arg fmt="%s" index="4">microblaze_0_to_nand_01_0_wrapper</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mb_plb/GEN_MPLB_RST[1].I_MPLB_RST</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mb_plb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;mb_plb/GEN_MPLB_RST[0].I_MPLB_RST&gt; &lt;mb_plb/GEN_SPLB_RST[2].I_SPLB_RST&gt; &lt;mb_plb/GEN_SPLB_RST[1].I_SPLB_RST&gt; &lt;mb_plb/GEN_SPLB_RST[0].I_SPLB_RST&gt; &lt;mb_plb/I_PLB_RST&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mb_plb/GEN_MPLB_RST[1].I_MPLB_RST</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mb_plb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;mb_plb/GEN_MPLB_RST[0].I_MPLB_RST&gt; &lt;mb_plb/GEN_SPLB_RST[2].I_SPLB_RST&gt; &lt;mb_plb/GEN_SPLB_RST[1].I_SPLB_RST&gt; &lt;mb_plb/GEN_SPLB_RST[0].I_SPLB_RST&gt; &lt;mb_plb/I_PLB_RST&gt; </arg>
+</msg>
+
+</messages>
+

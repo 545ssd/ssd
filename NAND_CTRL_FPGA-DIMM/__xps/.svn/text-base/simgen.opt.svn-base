@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl -lp C:/EDK-XUPV5-LX110T-Pack/lib/   TestApp_Nand/executable.elf -msg __xps/ise/xmsgprops.lst -s mti -X F:/ssd_repo/NAND_CTRL_FPGA-DIMM/

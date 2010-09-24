@@ -1,0 +1,7 @@
+xst -ise "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/CPLDLoopback.ise" -intstyle ise -ifn "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/top.xst" -ofn "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/top.syr" 
+ngdbuild -ise "CPLDLoopback.ise" -intstyle ise -dd _ngo -i -p xc2c256-FT256-6 top.ngc top.ngd  
+cpldfit -ise "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/CPLDLoopback.ise" -intstyle ise -p xc2c256-6-FT256 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 top.ngd 
+XSLTProcess -ise "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/CPLDLoopback.ise" top_build.xml 
+tsim -ise "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/CPLDLoopback.ise" -intstyle ise top top.nga 
+taengine -ise "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/CPLDLoopback.ise" -intstyle ise -f top -w --format html1 -l top_html/tim/timing_report.htm 
+hprep6 -ise "C:/Xilinx/repos/ssd/trunk/project/cpld/CPLDLoopback/CPLDLoopback.ise" -s IEEE1149 -i top 

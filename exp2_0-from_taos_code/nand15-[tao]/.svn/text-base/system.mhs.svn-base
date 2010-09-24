@@ -1,0 +1,233 @@
+
+# ##############################################################################
+# Created by Base System Builder Wizard for Xilinx EDK 11.3 Build EDK_LS3.57
+# Thu Dec 03 18:22:45 2009
+# Target Board:  Xilinx XUPV5-LX110T Evaluation Platform Rev A
+# Family:    virtex5
+# Device:    xc5vlx110t
+# Package:   ff1136
+# Speed Grade:  -1
+# Processor number: 1
+# Processor 1: microblaze_0
+# System clock frequency: 50.0
+# Debug Interface: On-Chip HW Debug Module
+# ##############################################################################
+ PARAMETER VERSION = 2.1.0
+
+
+ PORT fpga_0_RS232_Uart_1_RX_pin = fpga_0_RS232_Uart_1_RX_pin, DIR = I
+ PORT fpga_0_RS232_Uart_1_TX_pin = fpga_0_RS232_Uart_1_TX_pin, DIR = O
+ PORT fpga_0_RS232_Uart_2_RX_pin = fpga_0_RS232_Uart_2_RX_pin, DIR = I
+ PORT fpga_0_RS232_Uart_2_TX_pin = fpga_0_RS232_Uart_2_TX_pin, DIR = O
+ PORT fpga_0_clk_1_sys_clk_pin = dcm_clk_s, DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+ PORT fpga_0_rst_1_sys_rst_pin = sys_rst_s, DIR = I, SIGIS = RST, RST_POLARITY = 0
+ PORT nand_01_0_curr_state_pin = nand_01_0_curr_state, DIR = O, VEC = [0:5]
+ PORT nand_01_0_ccount_q_pin = nand_01_0_ccount_q, DIR = O, VEC = [0:4]
+ PORT nand_01_0_control_q_pin = nand_01_0_control_q, DIR = O, VEC = [0:15]
+ PORT nand_01_0_count_q_pin = nand_01_0_count_q, DIR = O, VEC = [0:15]
+ PORT nand_01_0_raddr_q_pin = nand_01_0_raddr_q, DIR = O, VEC = [0:12]
+ PORT nand_01_0_nDone_pin = nand_01_0_nDone, DIR = O
+ PORT nand_01_0_nReset_pin = nand_01_0_nReset, DIR = O
+ PORT nand_01_0_nAddr_pin = nand_01_0_nAddr, DIR = O, VEC = [0:31]
+ PORT nand_01_0_nCmd_pin = nand_01_0_nCmd, DIR = O, VEC = [0:2]
+ PORT nand_01_0_nData_Loaded_pin = nand_01_0_nData_Loaded, DIR = O
+ PORT nand_01_0_nCmd_Loaded_pin = nand_01_0_nCmd_Loaded, DIR = O
+ PORT nand_01_0_nCsf_pin = nand_01_0_nCsf, DIR = O, VEC = [0:6]
+ PORT nand_01_0_n_re_l_pin = nand_01_0_n_re_l, DIR = O
+ PORT nand_01_0_n_we_l_pin = nand_01_0_n_we_l, DIR = O
+ PORT nand_01_0_n_ale_pin = nand_01_0_n_ale, DIR = O
+ PORT nand_01_0_n_cle_pin = nand_01_0_n_cle, DIR = O
+ PORT nand_01_0_n_ce1_l_pin = nand_01_0_n_ce1_l, DIR = O
+ PORT nand_01_0_n_ce2_l_pin = nand_01_0_n_ce2_l, DIR = O
+ PORT nand_01_0_n_wp_l_pin = nand_01_0_n_wp_l, DIR = O
+ PORT nand_01_0_n_io_dir_pin = nand_01_0_n_io_dir, DIR = O
+ PORT nand_01_0_n_rb1_l_pin = nand_01_0_n_rb1_l, DIR = I
+ PORT nand_01_0_n_rb2_l_pin = nand_01_0_n_rb2_l, DIR = I
+ PORT nand_01_0_t_rb1_l_pin = nand_01_0_t_rb1_l, DIR = O
+ PORT nand_01_0_t_rb2_l_pin = nand_01_0_t_rb2_l, DIR = O
+ PORT nand_01_0_t_i_pin = nand_01_0_t_i, DIR = O, VEC = [0:7]
+ PORT nand_01_0_n_i_pin = nand_01_0_n_i, DIR = I, VEC = [0:7]
+ PORT nand_01_0_n_o_pin = nand_01_0_n_o, DIR = O, VEC = [0:7]
+
+
+BEGIN microblaze
+ PARAMETER INSTANCE = microblaze_0
+ PARAMETER C_INTERCONNECT = 1
+ PARAMETER C_DEBUG_ENABLED = 1
+ PARAMETER HW_VER = 7.20.d
+ PARAMETER C_FSL_LINKS = 1
+ BUS_INTERFACE DLMB = dlmb
+ BUS_INTERFACE ILMB = ilmb
+ BUS_INTERFACE DPLB = mb_plb
+ BUS_INTERFACE IPLB = mb_plb
+ BUS_INTERFACE DEBUG = microblaze_0_mdm_bus
+ BUS_INTERFACE SFSL0 = nand_01_0_to_microblaze_0
+ BUS_INTERFACE MFSL0 = microblaze_0_to_nand_01_0
+ PORT MB_RESET = mb_reset
+END
+
+BEGIN plb_v46
+ PARAMETER INSTANCE = mb_plb
+ PARAMETER HW_VER = 1.04.a
+ PORT PLB_Clk = clk_50_0000MHz
+ PORT SYS_Rst = sys_bus_reset
+END
+
+BEGIN lmb_v10
+ PARAMETER INSTANCE = ilmb
+ PARAMETER HW_VER = 1.00.a
+ PORT LMB_Clk = clk_50_0000MHz
+ PORT SYS_Rst = sys_bus_reset
+END
+
+BEGIN lmb_v10
+ PARAMETER INSTANCE = dlmb
+ PARAMETER HW_VER = 1.00.a
+ PORT LMB_Clk = clk_50_0000MHz
+ PORT SYS_Rst = sys_bus_reset
+END
+
+BEGIN lmb_bram_if_cntlr
+ PARAMETER INSTANCE = dlmb_cntlr
+ PARAMETER HW_VER = 2.10.b
+ PARAMETER C_BASEADDR = 0x00000000
+ PARAMETER C_HIGHADDR = 0x00007fff
+ BUS_INTERFACE SLMB = dlmb
+ BUS_INTERFACE BRAM_PORT = dlmb_port
+END
+
+BEGIN lmb_bram_if_cntlr
+ PARAMETER INSTANCE = ilmb_cntlr
+ PARAMETER HW_VER = 2.10.b
+ PARAMETER C_BASEADDR = 0x00000000
+ PARAMETER C_HIGHADDR = 0x00007fff
+ BUS_INTERFACE SLMB = ilmb
+ BUS_INTERFACE BRAM_PORT = ilmb_port
+END
+
+BEGIN bram_block
+ PARAMETER INSTANCE = lmb_bram
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE PORTA = ilmb_port
+ BUS_INTERFACE PORTB = dlmb_port
+END
+
+BEGIN xps_uartlite
+ PARAMETER INSTANCE = RS232_Uart_1
+ PARAMETER C_BAUDRATE = 9600
+ PARAMETER C_DATA_BITS = 8
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_ODD_PARITY = 0
+ PARAMETER HW_VER = 1.01.a
+ PARAMETER C_BASEADDR = 0x84020000
+ PARAMETER C_HIGHADDR = 0x8402ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT RX = fpga_0_RS232_Uart_1_RX_pin
+ PORT TX = fpga_0_RS232_Uart_1_TX_pin
+END
+
+BEGIN xps_uartlite
+ PARAMETER INSTANCE = RS232_Uart_2
+ PARAMETER C_BAUDRATE = 9600
+ PARAMETER C_DATA_BITS = 8
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_ODD_PARITY = 0
+ PARAMETER HW_VER = 1.01.a
+ PARAMETER C_BASEADDR = 0x84000000
+ PARAMETER C_HIGHADDR = 0x8400ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT RX = fpga_0_RS232_Uart_2_RX_pin
+ PORT TX = fpga_0_RS232_Uart_2_TX_pin
+END
+
+BEGIN clock_generator
+ PARAMETER INSTANCE = clock_generator_0
+ PARAMETER C_EXT_RESET_HIGH = 0
+ PARAMETER C_CLKIN_FREQ = 100000000
+ PARAMETER C_CLKOUT0_FREQ = 50000000
+ PARAMETER C_CLKOUT0_PHASE = 0
+ PARAMETER C_CLKOUT0_GROUP = NONE
+ PARAMETER C_CLKOUT0_BUF = TRUE
+ PARAMETER HW_VER = 3.02.a
+ PORT CLKIN = dcm_clk_s
+ PORT CLKOUT0 = clk_50_0000MHz
+ PORT RST = sys_rst_s
+ PORT LOCKED = Dcm_all_locked
+END
+
+BEGIN mdm
+ PARAMETER INSTANCE = mdm_0
+ PARAMETER C_MB_DBG_PORTS = 1
+ PARAMETER C_USE_UART = 1
+ PARAMETER C_UART_WIDTH = 8
+ PARAMETER HW_VER = 1.00.g
+ PARAMETER C_BASEADDR = 0x84400000
+ PARAMETER C_HIGHADDR = 0x8440ffff
+ BUS_INTERFACE SPLB = mb_plb
+ BUS_INTERFACE MBDEBUG_0 = microblaze_0_mdm_bus
+ PORT Debug_SYS_Rst = Debug_SYS_Rst
+END
+
+BEGIN proc_sys_reset
+ PARAMETER INSTANCE = proc_sys_reset_0
+ PARAMETER C_EXT_RESET_HIGH = 0
+ PARAMETER HW_VER = 2.00.a
+ PORT Slowest_sync_clk = clk_50_0000MHz
+ PORT Ext_Reset_In = sys_rst_s
+ PORT MB_Debug_Sys_Rst = Debug_SYS_Rst
+ PORT Dcm_locked = Dcm_all_locked
+ PORT MB_Reset = mb_reset
+ PORT Bus_Struct_Reset = sys_bus_reset
+END
+
+BEGIN fsl_v20
+ PARAMETER INSTANCE = nand_01_0_to_microblaze_0
+ PARAMETER HW_VER = 2.11.b
+ PARAMETER C_EXT_RESET_HIGH = 1
+ PORT FSL_Clk = clk_50_0000MHz
+ PORT SYS_Rst = sys_bus_reset
+END
+
+BEGIN nand_01
+ PARAMETER INSTANCE = nand_01_0
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE MFSL = nand_01_0_to_microblaze_0
+ BUS_INTERFACE SFSL = microblaze_0_to_nand_01_0
+ PORT FSL_Clk = clk_50_0000MHz
+ PORT curr_state = nand_01_0_curr_state
+ PORT ccount_q = nand_01_0_ccount_q
+ PORT control_q = nand_01_0_control_q
+ PORT count_q = nand_01_0_count_q
+ PORT raddr_q = nand_01_0_raddr_q
+ PORT nDone = nand_01_0_nDone
+ PORT nReset = nand_01_0_nReset
+ PORT nAddr = nand_01_0_nAddr
+ PORT nCmd = nand_01_0_nCmd
+ PORT nData_Loaded = nand_01_0_nData_Loaded
+ PORT nCmd_Loaded = nand_01_0_nCmd_Loaded
+ PORT nCsf = nand_01_0_nCsf
+ PORT n_re_l = nand_01_0_n_re_l
+ PORT n_we_l = nand_01_0_n_we_l
+ PORT n_ale = nand_01_0_n_ale
+ PORT n_cle = nand_01_0_n_cle
+ PORT n_ce1_l = nand_01_0_n_ce1_l
+ PORT n_ce2_l = nand_01_0_n_ce2_l
+ PORT n_wp_l = nand_01_0_n_wp_l
+ PORT n_io_dir = nand_01_0_n_io_dir
+ PORT n_rb1_l = nand_01_0_n_rb1_l
+ PORT n_rb2_l = nand_01_0_n_rb2_l
+ PORT t_rb1_l = nand_01_0_t_rb1_l
+ PORT t_rb2_l = nand_01_0_t_rb2_l
+ PORT t_i = nand_01_0_t_i
+ PORT n_i = nand_01_0_n_i
+ PORT n_o = nand_01_0_n_o
+END
+
+BEGIN fsl_v20
+ PARAMETER INSTANCE = microblaze_0_to_nand_01_0
+ PARAMETER HW_VER = 2.11.b
+ PARAMETER C_EXT_RESET_HIGH = 1
+ PORT FSL_Clk = clk_50_0000MHz
+ PORT SYS_Rst = sys_bus_reset
+END
+

@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl   TestApp_Memory_microblaze_0/executable.elf -msg __xps/ise/xmsgprops.lst -s mti -X F:/ssd_repo/exp2_0-from_taos_code/nand15-[tao]/

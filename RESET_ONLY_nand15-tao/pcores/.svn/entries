@@ -1,0 +1,34 @@
+9
+
+dir
+38
+svn+ssh://chemesvr3.cheme.cmu.edu/home/svn/ssd_repo/RESET_ONLY_nand15-tao/pcores
+svn+ssh://chemesvr3.cheme.cmu.edu/home/svn/ssd_repo
+
+
+
+2010-04-16T21:10:53.747204Z
+31
+wconstab
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+47a4c246-6072-47d7-b7fe-88d581e8f170
+
+nand_01_v1_00_a
+dir
+
+nand_01_v2_00_a
+dir
+

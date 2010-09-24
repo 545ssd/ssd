@@ -1,0 +1,1 @@
+ -p virtex5 -lp C:/EDK-XUPV5-LX110T-Pack/lib/ -msg __xps/ise/xmsgprops.lst

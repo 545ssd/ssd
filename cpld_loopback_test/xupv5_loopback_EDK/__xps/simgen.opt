@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl   -msg __xps/ise/xmsgprops.lst -s mti -X C:/Xilinx/repos/ssd/trunk/project/xupv5_loopback/

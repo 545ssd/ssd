@@ -1,0 +1,2024 @@
+Saved contents of this file to system_log.11.3 during revup to EDK 11.4.
+
+Xilinx Platform Studio (XPS)
+Xilinx EDK 11.4 Build EDK_LS4.68
+
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+At Local date and time: Thu Feb 25 13:20:50 2010
+ make -f system.make netlist started...
+
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc5vlx110tff1136-1 -lang vhdl -lp C:/EDK-XUPV5-LX110T-Pack/lib/  -msg __xps/ise/xmsgprops.lst system.mhs
+
+Release 11.4 - platgen Xilinx EDK 11.4 Build EDK_LS4.68
+ (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+
+Command Line: platgen -p xc5vlx110tff1136-1 -lang vhdl -lp
+C:/EDK-XUPV5-LX110T-Pack/lib/ -msg __xps/ise/xmsgprops.lst system.mhs 
+
+Parse C:/ssd_repo/nand15-[tao]/system.mhs ...
+
+Read MPD definitions ...
+
+Overriding IP level properties ...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x84000000-0x8400ffff) RS232_Uart_2	mb_plb
+  (0x84020000-0x8402ffff) RS232_Uart_1	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+
+Computing clock values...
+INFO:EDK:1039 - Did not update the value for parameter:
+   nand_01_0_to_microblaze_0:C_READ_CLOCK_PERIOD. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   microblaze_0_to_nand_01_0:C_READ_CLOCK_PERIOD. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_PLBV46_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_NUM_SLAVES value
+   to 3
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 72 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH value
+   to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_PLBV46_DWIDTH value to
+   32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v1
+   0_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_LMB_NUM_SLAVES value to
+   1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v1
+   0_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_LMB_NUM_SLAVES value to
+   1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bra
+   m_block_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_MEMSIZE value to
+   0x8000
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232_Uart_1 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a\data\x
+   ps_uartlite_v2_1_0.mpd line 76 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232_Uart_2 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a\data\x
+   ps_uartlite_v2_1_0.mpd line 76 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 88 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 89 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value to 2
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb - C:\ssd_repo\nand15-[tao]\system.mhs line 69 - 2
+master(s) : 3 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb - C:\ssd_repo\nand15-[tao]\system.mhs line 76 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb - C:\ssd_repo\nand15-[tao]\system.mhs line 83 - 1
+master(s) : 1 slave(s)
+IPNAME:fsl_v20 INSTANCE:nand_01_0_to_microblaze_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 183 - 1 master(s) : 1 slave(s)
+IPNAME:fsl_v20 INSTANCE:microblaze_0_to_nand_01_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 226 - 1 master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 234 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 270 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:I_ADDRTAG CONNECTOR:ilmb_M_ADDRTAG -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 232 - floating connection!
+WARNING:EDK:2099 - PORT:D_ADDRTAG CONNECTOR:dlmb_M_ADDRTAG -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 273 - floating connection!
+WARNING:EDK:2099 - PORT:FSL0_S_CLK CONNECTOR:nand_01_0_to_microblaze_0_FSL_S_Clk
+   -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 370 - floating connection!
+WARNING:EDK:2099 - PORT:FSL0_M_CLK CONNECTOR:microblaze_0_to_nand_01_0_FSL_M_Clk
+   -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 375 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:FSL_S_Clk CONNECTOR:microblaze_0_to_nand_01_0_FSL_S_Clk
+   - C:\ssd_repo\nand15-[tao]\pcores\nand_01_v1_00_a\data\nand_01_v2_1_0.mpd
+   line 27 - floating connection!
+WARNING:EDK:2099 - PORT:FSL_M_Clk CONNECTOR:nand_01_0_to_microblaze_0_FSL_M_Clk
+   - C:\ssd_repo\nand15-[tao]\pcores\nand_01_v1_00_a\data\nand_01_v2_1_0.mpd
+   line 32 - floating connection!
+
+Performing Clock DRCs...
+INFO:EDK:1038 - Did not implement clock DRCs for parameter:
+   nand_01_0_to_microblaze_0:C_READ_CLOCK_PERIOD. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1038 - Did not implement clock DRCs for parameter:
+   microblaze_0_to_nand_01_0:C_READ_CLOCK_PERIOD. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 157 - tcl is overriding PARAMETER C_D_PLB value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 158 - tcl is overriding PARAMETER C_D_OPB value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 160 - tcl is overriding PARAMETER C_I_PLB value to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 161 - tcl is overriding PARAMETER C_I_OPB value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 196 - tcl is overriding PARAMETER C_ADDR_TAG_BITS
+   value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 206 - tcl is overriding PARAMETER C_DCACHE_ADDR_TAG
+   value to 0
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 219 - tcl is overriding PARAMETER C_USE_EXT_BRK value
+   to 1
+INFO:EDK:1560 - IPNAME:microblaze INSTANCE:microblaze_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 220 - tcl is overriding PARAMETER C_USE_EXT_NM_BRK
+   value to 1
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2_10_b\d
+   ata\lmb_bram_if_cntlr_v2_1_0.mpd line 77 - tcl is overriding PARAMETER C_MASK
+   value to 0x04000000
+INFO:EDK:1560 - IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v2_10_b\d
+   ata\lmb_bram_if_cntlr_v2_1_0.mpd line 77 - tcl is overriding PARAMETER C_MASK
+   value to 0x04000000
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+INFO: The nand_01_0_to_microblaze_0 core has constraints automatically generated
+by XPS in
+implementation/nand_01_0_to_microblaze_0_wrapper/nand_01_0_to_microblaze_0_wrapp
+er.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+INFO: The microblaze_0_to_nand_01_0 core has constraints automatically generated
+by XPS in
+implementation/microblaze_0_to_nand_01_0_wrapper/microblaze_0_to_nand_01_0_wrapp
+er.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:lmb_bram - C:\ssd_repo\nand15-[tao]\system.mhs line
+108 - elaborating IP
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:2502 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:microblaze_0 - C:\ssd_repo\nand15-[tao]\system.mhs line 53 - Running
+XST synthesis
+INSTANCE:mb_plb - C:\ssd_repo\nand15-[tao]\system.mhs line 69 - Running XST
+synthesis
+INSTANCE:ilmb - C:\ssd_repo\nand15-[tao]\system.mhs line 76 - Running XST
+synthesis
+INSTANCE:dlmb - C:\ssd_repo\nand15-[tao]\system.mhs line 83 - Running XST
+synthesis
+INSTANCE:dlmb_cntlr - C:\ssd_repo\nand15-[tao]\system.mhs line 90 - Running XST
+synthesis
+INSTANCE:ilmb_cntlr - C:\ssd_repo\nand15-[tao]\system.mhs line 99 - Running XST
+synthesis
+INSTANCE:lmb_bram - C:\ssd_repo\nand15-[tao]\system.mhs line 108 - Running XST
+synthesis
+INSTANCE:rs232_uart_1 - C:\ssd_repo\nand15-[tao]\system.mhs line 115 - Running
+XST synthesis
+INSTANCE:rs232_uart_2 - C:\ssd_repo\nand15-[tao]\system.mhs line 129 - Running
+XST synthesis
+INSTANCE:clock_generator_0 - C:\ssd_repo\nand15-[tao]\system.mhs line 143 -
+Running XST synthesis
+INSTANCE:mdm_0 - C:\ssd_repo\nand15-[tao]\system.mhs line 158 - Running XST
+synthesis
+INSTANCE:proc_sys_reset_0 - C:\ssd_repo\nand15-[tao]\system.mhs line 171 -
+Running XST synthesis
+INSTANCE:nand_01_0_to_microblaze_0 - C:\ssd_repo\nand15-[tao]\system.mhs line
+183 - Running XST synthesis
+INSTANCE:nand_01_0 - C:\ssd_repo\nand15-[tao]\system.mhs line 191 - Running XST
+synthesis
+INSTANCE:microblaze_0_to_nand_01_0 - C:\ssd_repo\nand15-[tao]\system.mhs line
+226 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:rs232_uart_1_wrapper INSTANCE:rs232_uart_1 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 115 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <C:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vlx110tff1136-1 -intstyle silent -sd .. rs232_uart_1_wrapper.ngc
+../rs232_uart_1_wrapper.ngc
+
+Reading NGO file
+"C:/ssd_repo/nand15-[tao]/implementation/rs232_uart_1_wrapper/rs232_uart_1_wrapp
+er.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../rs232_uart_1_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../rs232_uart_1_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:rs232_uart_2_wrapper INSTANCE:rs232_uart_2 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 129 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <C:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vlx110tff1136-1 -intstyle silent -sd .. rs232_uart_2_wrapper.ngc
+../rs232_uart_2_wrapper.ngc
+
+Reading NGO file
+"C:/ssd_repo/nand15-[tao]/implementation/rs232_uart_2_wrapper/rs232_uart_2_wrapp
+er.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../rs232_uart_2_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../rs232_uart_2_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:clock_generator_0_wrapper INSTANCE:clock_generator_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 143 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <C:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vlx110tff1136-1 -intstyle silent -sd .. clock_generator_0_wrapper.ngc
+../clock_generator_0_wrapper.ngc
+
+Reading NGO file
+"C:/ssd_repo/nand15-[tao]/implementation/clock_generator_0_wrapper/clock_generat
+or_0_wrapper.ngc" ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../clock_generator_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  1 sec
+Total CPU time to NGCBUILD completion:   1 sec
+
+Writing NGCBUILD log file "../clock_generator_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:nand_01_0_to_microblaze_0_wrapper INSTANCE:nand_01_0_to_microblaze_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 183 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <C:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vlx110tff1136-1 -intstyle silent -uc nand_01_0_to_microblaze_0_wrapper.ucf
+-sd .. nand_01_0_to_microblaze_0_wrapper.ngc
+../nand_01_0_to_microblaze_0_wrapper.ngc
+
+Reading NGO file
+"C:/ssd_repo/nand15-[tao]/implementation/nand_01_0_to_microblaze_0_wrapper/nand_
+01_0_to_microblaze_0_wrapper.ngc" ...
+
+Applying constraints in "nand_01_0_to_microblaze_0_wrapper.ucf" to the design...
+Checking Constraint Associations...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../nand_01_0_to_microblaze_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../nand_01_0_to_microblaze_0_wrapper.blc"...
+
+NGCBUILD done.
+IPNAME:microblaze_0_to_nand_01_0_wrapper INSTANCE:microblaze_0_to_nand_01_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 226 - Running NGCBUILD
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <C:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: C:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc5vlx110tff1136-1 -intstyle silent -uc microblaze_0_to_nand_01_0_wrapper.ucf
+-sd .. microblaze_0_to_nand_01_0_wrapper.ngc
+../microblaze_0_to_nand_01_0_wrapper.ngc
+
+Reading NGO file
+"C:/ssd_repo/nand15-[tao]/implementation/microblaze_0_to_nand_01_0_wrapper/micro
+blaze_0_to_nand_01_0_wrapper.ngc" ...
+
+Applying constraints in "microblaze_0_to_nand_01_0_wrapper.ucf" to the design...
+Checking Constraint Associations...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../microblaze_0_to_nand_01_0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "../microblaze_0_to_nand_01_0_wrapper.blc"...
+
+NGCBUILD done.
+
+Rebuilding cache ...
+
+Total run time: 283.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh"
+xst -ifn system_xst.scr -intstyle silent
+Running XST synthesis ...
+XST completed
+Release 11.4 - ngcbuild L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Overriding Xilinx file <ngcflow.csf> with local file
+<c:/Xilinx/11.1/ISE/data/ngcflow.csf>
+
+Command Line: c:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe ./system.ngc
+../implementation/system.ngc -sd ../implementation -i -ise
+../__xps/ise/system.ise
+
+Reading NGO file "c:/ssd_repo/nand15-[tao]/synthesis/system.ngc" ...
+Loading design module "../implementation/microblaze_0_wrapper.ngc"...
+Loading design module "../implementation/mb_plb_wrapper.ngc"...
+Loading design module "../implementation/ilmb_wrapper.ngc"...
+Loading design module "../implementation/dlmb_wrapper.ngc"...
+Loading design module "../implementation/dlmb_cntlr_wrapper.ngc"...
+Loading design module "../implementation/ilmb_cntlr_wrapper.ngc"...
+Loading design module "../implementation/lmb_bram_wrapper.ngc"...
+Loading design module "../implementation/rs232_uart_1_wrapper.ngc"...
+Loading design module "../implementation/rs232_uart_2_wrapper.ngc"...
+Loading design module "../implementation/clock_generator_0_wrapper.ngc"...
+Loading design module "../implementation/mdm_0_wrapper.ngc"...
+Loading design module "../implementation/proc_sys_reset_0_wrapper.ngc"...
+Loading design module
+"../implementation/nand_01_0_to_microblaze_0_wrapper.ngc"...
+Loading design module "../implementation/nand_01_0_wrapper.ngc"...
+Loading design module
+"../implementation/microblaze_0_to_nand_01_0_wrapper.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGC file "../implementation/system.ngc" ...
+Total REAL time to NGCBUILD completion:  2 sec
+Total CPU time to NGCBUILD completion:   2 sec
+
+Writing NGCBUILD log file "../implementation/system.blc"...
+
+NGCBUILD done.
+
+
+Done!
+
+At Local date and time: Thu Feb 25 13:34:38 2010
+ make -f system.make bits started...
+
+*********************************************
+Running Xilinx Implementation tools..
+*********************************************
+xflow -wd implementation -p xc5vlx110tff1136-1 -implement xflow.opt -ise ../__xps/ise/system.ise system.ngc
+Release 11.4 - Xflow L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc5vlx110tff1136-1 -implement xflow.opt -ise
+../__xps/ise/system.ise system.ngc  
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <c:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+.... Copying flowfile c:/Xilinx/11.1/ISE/xilinx/data/fpga.flw into working
+directory C:/ssd_repo/nand15-[tao]/implementation 
+
+Using Flow File: C:/ssd_repo/nand15-[tao]/implementation/fpga.flw 
+Using Option File(s): 
+ C:/ssd_repo/nand15-[tao]/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -ise ../__xps/ise/system.ise -p xc5vlx110tff1136-1 -nt timestamp -bm
+system.bmm "C:/ssd_repo/nand15-[tao]/implementation/system.ngc" -uc system.ucf
+system.ngd 
+#----------------------------------------------#
+Release 11.4 - ngdbuild L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <c:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: ngdbuild -ise ../__xps/ise/system.ise -p xc5vlx110tff1136-1 -nt
+timestamp -bm system.bmm C:/ssd_repo/nand15-[tao]/implementation/system.ngc -uc
+system.ucf system.ngd
+
+Reading NGO file "C:/ssd_repo/nand15-[tao]/implementation/system.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_0_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_0_" TS_sys_clk_pin *
+   0.5 HIGH 50%>
+
+Done...
+Checking Partitions ...
+
+Processing BMM file ...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "SIM_DEVICE" is not allowed on symbol
+   "clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst"
+   of type "PLL_ADV".  This attribute will be ignored.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -ise ../__xps/ise/system.ise -o system_map.ncd -w -pr b -ol high -timing
+-detail system.ngd system.pcf 
+#----------------------------------------------#
+Release 11.4 - Map L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/data/Xdh_PrimTypeLib.xda>
+with local file <c:/Xilinx/11.1/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "5vlx110tff1136-1".
+WARNING:LIT:243 - Logical network ilmb_LMB_ReadStrobe has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_ABus<30> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_ABus<31> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_BE<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_BE<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_BE<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_BE<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MBusy<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MBusy<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MIRQ<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MIRQ<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdBTerm<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdBTerm<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdErr<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdErr<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRdWdAddr<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRearbitrate<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MRearbitrate<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSSize<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSize<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MSize<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrBTerm<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrBTerm<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrErr<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_MWrErr<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<10> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<11> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<12> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<13> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<14> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<15> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<4> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<5> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<6> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<7> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<8> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_TAttribute<9> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<10> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<11> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<12> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<13> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<14> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<15> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<16> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<17> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<18> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<19> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<20> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<21> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<22> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<23> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<24> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<25> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<26> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<27> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<28> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<29> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<30> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<31> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<4> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<5> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<6> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<7> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<8> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_UABus<9> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_busLock has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_lockErr has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdBurst has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPendPri<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPendPri<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPendReq has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_rdPrim<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrBurst has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<10> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<11> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<12> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<13> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<14> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<15> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<16> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<17> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<18> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<19> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<20> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<21> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<22> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<23> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<2> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<3> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<4> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<5> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<6> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<7> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<8> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrDBus<9> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPendPri<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPendPri<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPendReq has no load.
+WARNING:LIT:243 - Logical network mb_plb_PLB_wrPrim<0> has no load.
+WARNING:LIT:243 - Logical network microblaze_0/microblaze_0/Trace_Data_Write has
+   no load.
+WARNING:LIT:243 - Logical network microblaze_0/microblaze_0/Trace_Data_Access
+   has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/Trace_WB_Jump_Taken has no
+   load.
+WARNING:LIT:243 - Logical network microblaze_0/Trace_MB_Halted has no load.
+WARNING:LIT:243 - Logical network microblaze_0/microblaze_0/Trace_Data_Read has
+   no load.
+WARNING:LIT:243 - Logical network microblaze_0/Trace_Valid_Instr has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<4> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<5> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<6> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<7> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<8> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<9> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<10> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<11> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<12> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<13> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<14> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<15> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<16> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<17> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<18> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<19> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<20> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<21> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<22> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<23> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Write_Value<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Byte_Enable<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<4> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<5> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<6> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<7> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<8> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<9> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<10> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<11> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<12> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<13> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<14> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<15> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<16> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<17> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<18> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<19> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<20> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<21> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<22> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<23> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/wb_instr<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<0> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<1> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<2> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<3> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<4> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<5> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<6> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<7> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<8> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<9> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<10> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<11> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<12> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<13> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<14> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<15> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<16> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<17> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<18> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<19> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<20> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<21> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<22> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<23> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<24> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<25> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<26> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<27> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<28> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<29> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<30> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Trace_Data_Address<31> has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/exception_registers_I1/FPGA
+   _Target.Gen_Ret_Addr[0].MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Shift_Logic_Module_I/Use_PC
+   MP_instr.Using_FPGA_PCMP.carry_equal_byte1/MUXCY_L_Enable_2/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Shift_Logic_Module_I/Use_PC
+   MP_instr.Using_FPGA_PCMP.carry_equal_byte2/MUXCY_L_Enable_2/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Shift_Logic_Module_I/Use_PC
+   MP_instr.Using_FPGA_PCMP.carry_equal_byte3/MUXCY_L_Enable_2/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Data_Flow_I/Shift_Logic_Module_I/Use_PC
+   MP_instr.Using_FPGA_PCMP.carry_equal_byte4/MUXCY_L_Enable_2/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/Use_MuxCy[10].OF_Piperun_Stage
+   /Using_FPGA.MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network
+   microblaze_0/microblaze_0/Performance.Decode_I/PC_Module_I/Using_FPGA.Incr_PC
+   [0].MUXCY_I/LO has no load.
+WARNING:LIT:243 - Logical network mb_plb/Bus_Error_Det has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SrdBTerm has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SrdDAck has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_Swait has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SwrBTerm has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_SwrDAck has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_Sssize<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb/PLB_Sssize<1> has no load.
+WARNING:LIT:243 - Logical network mb_plb/MPLB_Rst<0> has no load.
+WARNING:LIT:243 - Logical network mb_plb/MPLB_Rst<1> has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/Interrupt has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO
+   _RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO
+   has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO
+   _RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO
+   has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_2/RS232_Uart_2/UARTLITE_CORE_I/Interrupt has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_2/RS232_Uart_2/UARTLITE_CORE_I/UARTLITE_TX_I/SRL_FIFO_I/I_SRL_FIFO
+   _RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO
+   has no load.
+WARNING:LIT:243 - Logical network
+   RS232_Uart_2/RS232_Uart_2/UARTLITE_CORE_I/UARTLITE_RX_I/SRL_FIFO_I/I_SRL_FIFO
+   _RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[4].MUXCY_L_I/LO
+   has no load.
+WARNING:LIT:243 - Logical network mdm_0/Interrupt has no load.
+WARNING:LIT:243 - Logical network mdm_0/Ext_JTAG_RESET has no load.
+WARNING:LIT:243 - Logical network mdm_0/Ext_JTAG_SEL has no load.
+WARNING:LIT:243 - Logical network mdm_0/bscan_drck1 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetsys_0 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetchip_0 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetcore_0 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/RstcPPCresetcore_1 has no load.
+WARNING:LIT:243 - Logical network
+   proc_sys_reset_0/proc_sys_reset_0/Peripheral_Reset<0> has no load.
+WARNING:LIT:243 - Logical network nand_01_0_to_microblaze_0/FSL_Control_IRQ has
+   no load.
+WARNING:LIT:243 - Logical network microblaze_0_to_nand_01_0/FSL_Control_IRQ has
+   no load.
+Mapping design into LUTs...
+Writing file system_map.ngm...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_2
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_2_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_2
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_2_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_2
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_2_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_2
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_2_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_3
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_3_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_3
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_3_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_3
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_3_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_3
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_3_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_4
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_4_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_4
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_4_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_4
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_4_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_4
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_4_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_5
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_5_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_5
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_5_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_5
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_5_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_5
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_5_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_6
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_6_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_6
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_6_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_6
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_6_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_6
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_6_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_7
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_7_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_7
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_7_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_7
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_7_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_7
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_7_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   nand_01_0/nand_01_0/b_mem/Mram_mem1
+   of frag REGCLKAU connected to power/ground net
+   nand_01_0/nand_01_0/b_mem/Mram_mem1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   nand_01_0/nand_01_0/b_mem/Mram_mem1
+   of frag REGCLKAL connected to power/ground net
+   nand_01_0/nand_01_0/b_mem/Mram_mem1_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   nand_01_0/nand_01_0/b_mem/Mram_mem2
+   of frag REGCLKAU connected to power/ground net
+   nand_01_0/nand_01_0/b_mem/Mram_mem2_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   nand_01_0/nand_01_0/b_mem/Mram_mem2
+   of frag REGCLKAL connected to power/ground net
+   nand_01_0/nand_01_0/b_mem/Mram_mem2_REGCLKAL_tiesig
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 38 secs 
+Total CPU  time at the beginning of Placer: 27 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:9c489f59) REAL time: 41 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 144 IOs, 22 are locked
+   and 122 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+Phase 2.7  Design Feasibility Check (Checksum:9c489f59) REAL time: 42 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:87ddce5a) REAL time: 42 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:87ddce5a) REAL time: 42 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:87ddce5a) REAL time: 1 mins 16 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:87ddce5a) REAL time: 1 mins 17 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+...
+Phase 7.2  Initial Clock and IO Placement (Checksum:1e358a60) REAL time: 1 mins 19 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:1e358a60) REAL time: 1 mins 19 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:1e358a60) REAL time: 1 mins 19 secs 
+
+Phase 10.3  Local Placement Optimization
+...
+.
+Phase 10.3  Local Placement Optimization (Checksum:c2f3750d) REAL time: 1 mins 20 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:fc459c08) REAL time: 1 mins 21 secs 
+
+Phase 12.8  Global Placement
+.......
+...............................................
+..........
+Phase 12.8  Global Placement (Checksum:f9770b29) REAL time: 1 mins 26 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:f9770b29) REAL time: 1 mins 26 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:f9770b29) REAL time: 1 mins 26 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:74d456a9) REAL time: 1 mins 59 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:74d456a9) REAL time: 2 mins 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:74d456a9) REAL time: 2 mins 
+
+Total REAL time to Placer completion: 2 mins 
+Total CPU  time to Placer completion: 1 mins 48 secs 
+Running post-placement packing...
+Writing output files...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  291
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,805 out of  69,120    2%
+    Number used as Flip Flops:               1,780
+    Number used as Latches:                     24
+    Number used as Latch-thrus:                  1
+  Number of Slice LUTs:                      2,477 out of  69,120    3%
+    Number used as logic:                    2,250 out of  69,120    3%
+      Number using O6 output only:           2,081
+      Number using O5 output only:              71
+      Number using O5 and O6:                   98
+    Number used as Memory:                     216 out of  17,920    1%
+      Number used as Dual Port RAM:             64
+        Number using O5 and O6:                 64
+      Number used as Shift Register:           152
+        Number using O6 output only:           151
+        Number using O5 output only:             1
+    Number used as exclusive route-thru:        11
+  Number of route-thrus:                        99
+    Number using O6 output only:                78
+    Number using O5 output only:                17
+    Number using O5 and O6:                      4
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,268 out of  17,280    7%
+  Number of LUT Flip Flop pairs used:        3,233
+    Number with an unused Flip Flop:         1,428 out of   3,233   44%
+    Number with an unused LUT:                 756 out of   3,233   23%
+    Number of fully used LUT-FF pairs:       1,049 out of   3,233   32%
+    Number of unique control sets:             192
+    Number of slice register sites lost
+      to control set restrictions:             364 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       144 out of     640   22%
+    Number of LOCed IOBs:                       22 out of     144   15%
+    IOB Flip Flops:                             13
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      10 out of     148    6%
+    Number using BlockRAM only:                 10
+    Total primitives used:
+      Number of 36k BlockRAM used:              10
+    Total Memory used (KB):                    360 out of   5,328    6%
+  Number of BUFG/BUFGCTRLs:                      4 out of      32   12%
+    Number used as BUFGs:                        4
+  Number of BSCANs:                              1 out of       4   25%
+  Number of DSP48Es:                             3 out of      64    4%
+  Number of PLL_ADVs:                            1 out of       6   16%
+
+Average Fanout of Non-Clock Nets:                4.20
+
+Peak Memory Usage:  448 MB
+Total REAL time to MAP completion:  2 mins 6 secs 
+Total CPU time to MAP completion:   1 mins 54 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -ise ../__xps/ise/system.ise -w -ol high system_map.ncd system.ncd
+system.pcf 
+#----------------------------------------------#
+Release 11.4 - par L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/data/parBmgr.acd> with local file
+<c:/Xilinx/11.1/ISE/data/parBmgr.acd>
+
+
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment c:\Xilinx\11.1\ISE;C:\Xilinx\11.1\EDK.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Constraints file: system.pcf.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.66 2009-11-16".
+
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                          1 out of 4      25%
+   Number of BUFGs                           4 out of 32     12%
+   Number of DSP48Es                         3 out of 64      4%
+   Number of ILOGICs                        11 out of 800     1%
+   Number of External IOBs                 144 out of 640    22%
+      Number of LOCed IOBs                  22 out of 144    15%
+
+   Number of OLOGICs                         2 out of 800     1%
+   Number of PLL_ADVs                        1 out of 6      16%
+   Number of RAMB36_EXPs                    10 out of 148     6%
+   Number of Slice Registers              1805 out of 69120   2%
+      Number used as Flip Flops           1780
+      Number used as Latches                24
+      Number used as LatchThrus              1
+
+   Number of Slice LUTS                   2477 out of 69120   3%
+   Number of Slice LUT-Flip Flop pairs    3233 out of 69120   4%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 15 secs 
+Finished initial Timing Analysis.  REAL time: 15 secs 
+
+Starting Router
+
+
+Wirelength Stats for nets on all pins. NumPins: 15263
+
+Phase  1  : 16469 unrouted;      REAL time: 18 secs 
+
+Phase  2  : 14286 unrouted;      REAL time: 19 secs 
+
+Phase  3  : 5297 unrouted;      REAL time: 26 secs 
+
+Phase  4  : 5297 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 35 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 41 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 41 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 41 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 41 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 41 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 44 secs 
+Total REAL time to Router completion: 44 secs 
+Total CPU time to Router completion: 43 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|      clk_50_0000MHz | BUFGCTRL_X0Y1| No   |  823 |  0.472     |  2.012      |
++---------------------+--------------+------+------+------------+-------------+
+|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y30| No   |   67 |  0.204     |  1.735      |
++---------------------+--------------+------+------+------------+-------------+
+|nand_01_0/nand_01_0/ |              |      |      |            |             |
+|next_state_cmp_eq002 |              |      |      |            |             |
+|                   6 |BUFGCTRL_X0Y31| No   |    6 |  0.040     |  1.704      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   19 |  1.835     |  3.472      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
+  pin" 100 MHz HIGH 50%                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_PL | SETUP       |    10.585ns|     9.415ns|       0|           0
+  L0_CLK_OUT_0_ = PERIOD TIMEGRP         "c | HOLD        |     0.327ns|            |       0|           0
+  lock_generator_0_clock_generator_0_PLL0_C |             |            |            |        |            
+  LK_OUT_0_" TS_sys_clk_pin *         0.5 H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      4.000ns|      4.708ns|            0|            0|            0|       311052|
+| TS_clock_generator_0_clock_gen|     20.000ns|      9.415ns|          N/A|            0|            0|       311052|            0|
+| erator_0_PLL0_CLK_OUT_0_      |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 51 secs 
+Total CPU time to PAR completion: 50 secs 
+
+Peak Memory Usage:  366 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -ise ../__xps/ise/system.ise -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 11.4 - Trace  (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <c:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment
+c:\Xilinx\11.1\ISE;C:\Xilinx\11.1\EDK.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+--------------------------------------------------------------------------------
+Release 11.4 Trace  (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+trce -ise ../__xps/ise/system.ise -e 3 -xml system.twx system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc5vlx110t,-1 (PRODUCTION 1.66 2009-11-16, STEPPING
+level 0)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
+
+Constraints cover 311052 paths, 0 nets, and 13536 connections
+
+Design statistics:
+   Minimum period:   9.415ns (Maximum frequency: 106.213MHz)
+
+
+Analysis completed Thu Feb 25 13:38:23 2010
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 2
+Total time: 22 secs 
+
+
+xflow done!
+touch __xps/system_routed
+xilperl C:/Xilinx/11.1/EDK/data/fpga_impl/observe_par.pl -error yes implementation/system.par
+Analyzing implementation/system.par
+*********************************************
+Running Bitgen..
+*********************************************
+cd implementation; bitgen -w -f bitgen.ut system; cd ..
+Release 11.4 - Bitgen L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/11.1/EDK/virtex5/data/virtex5.acd>
+with local file <c:/Xilinx/11.1/ISE/virtex5/data/virtex5.acd>
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment
+c:\Xilinx\11.1\ISE;C:\Xilinx\11.1\EDK.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+Opened constraints file system.pcf.
+
+Thu Feb 25 13:38:34 2010
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "system.bit".
+Bitstream generation is complete.
+
+
+Done!
+
+At Local date and time: Thu Feb 25 13:39:33 2010
+ make -f system.make download started...
+
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc5vlx110tff1136-1 -lp C:/EDK-XUPV5-LX110T-Pack/lib/ -msg __xps/ise/xmsgprops.lst  system.mss
+libgen
+Xilinx EDK 11.4 Build EDK_LS4.68
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc5vlx110tff1136-1 -lp
+C:/EDK-XUPV5-LX110T-Pack/lib/ -msg __xps/ise/xmsgprops.lst system.mss 
+
+Release 11.4 - psf2Edward EDK_LS4.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb - C:\ssd_repo\nand15-[tao]\system.mhs line 69 - 2
+master(s) : 3 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb - C:\ssd_repo\nand15-[tao]\system.mhs line 76 - 1
+master(s) : 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb - C:\ssd_repo\nand15-[tao]\system.mhs line 83 - 1
+master(s) : 1 slave(s)
+IPNAME:fsl_v20 INSTANCE:nand_01_0_to_microblaze_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 183 - 1 master(s) : 1 slave(s)
+IPNAME:fsl_v20 INSTANCE:microblaze_0_to_nand_01_0 -
+C:\ssd_repo\nand15-[tao]\system.mhs line 226 - 1 master(s) : 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 234 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 270 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:I_ADDRTAG CONNECTOR:ilmb_M_ADDRTAG -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 232 - floating connection!
+WARNING:EDK:2099 - PORT:D_ADDRTAG CONNECTOR:dlmb_M_ADDRTAG -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 273 - floating connection!
+WARNING:EDK:2099 - PORT:FSL0_S_CLK CONNECTOR:nand_01_0_to_microblaze_0_FSL_S_Clk
+   -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 370 - floating connection!
+WARNING:EDK:2099 - PORT:FSL0_M_CLK CONNECTOR:microblaze_0_to_nand_01_0_FSL_M_Clk
+   -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\mic
+   roblaze_v2_1_0.mpd line 375 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   c:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 229 - floating connection!
+WARNING:EDK:2099 - PORT:FSL_S_Clk CONNECTOR:microblaze_0_to_nand_01_0_FSL_S_Clk
+   - C:\ssd_repo\nand15-[tao]\pcores\nand_01_v1_00_a\data\nand_01_v2_1_0.mpd
+   line 27 - floating connection!
+WARNING:EDK:2099 - PORT:FSL_M_Clk CONNECTOR:nand_01_0_to_microblaze_0_FSL_M_Clk
+   - C:\ssd_repo\nand15-[tao]\pcores\nand_01_v1_00_a\data\nand_01_v2_1_0.mpd
+   line 32 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+INFO:EDK:1740 - List of peripherals connected to processor instance
+   microblaze_0: 
+  - RS232_Uart_1
+  - RS232_Uart_2
+  - dlmb_cntlr
+  - ilmb_cntlr
+  - mdm_0
+  - nand_01_0
+
+-- Generating libraries for processor: microblaze_0 --
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Generating Macros for FSL peripheral access ...
+Running post_generate.
+Running include - 'make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul -mxl-pattern-compare -mcpu=v7.20.d  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul -mxl-pattern-compare -mcpu=v7.20.d  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling common
+Compiling standalone
+Compiling uartlite
+Compiling nand_01_v1_00_a
+Compiling cpu
+Running execs_generate.
+mb-gcc -O2 /cygdrive/c/ssd_repo/nand15-[tao]/TestApp_Memory_microblaze_0/src/TestApp_Memory.c  -o TestApp_Memory_microblaze_0/executable.elf \
+    -mno-xl-soft-mul -mxl-pattern-compare -mcpu=v7.20.d  -Wl,-T -Wl,/cygdrive/c/ssd_repo/nand15-[tao]/TestApp_Memory_microblaze_0/src/TestApp_Memory_LinkScr.ld  -g    -I./microblaze_0/include/  -L./microblaze_0/lib/  \
+  
+mb-size TestApp_Memory_microblaze_0/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5210	    300	   3118	   8628	   21b4	TestApp_Memory_microblaze_0/executable.elf
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit -p xc5vlx110tff1136-1 system.mhs -lp C:/EDK-XUPV5-LX110T-Pack/lib/ -pe microblaze_0 TestApp_Memory_microblaze_0/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 11.4 Build EDK_LS4.68
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+
+Overriding IP level properties ...
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0000000000-0x00007fff) dlmb_cntlr	dlmb
+  (0000000000-0x00007fff) ilmb_cntlr	ilmb
+  (0x84000000-0x8400ffff) RS232_Uart_2	mb_plb
+  (0x84020000-0x8402ffff) RS232_Uart_1	mb_plb
+  (0x84400000-0x8440ffff) mdm_0	mb_plb
+
+Computing clock values...
+INFO:EDK:1039 - Did not update the value for parameter:
+   nand_01_0_to_microblaze_0:C_READ_CLOCK_PERIOD. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   microblaze_0_to_nand_01_0:C_READ_CLOCK_PERIOD. Top-level frequency could not
+   be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 70 - tool is overriding PARAMETER C_PLBV46_NUM_MASTERS
+   value to 2
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_PLBV46_NUM_SLAVES value
+   to 3
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 72 - tool is overriding PARAMETER C_PLBV46_MID_WIDTH value
+   to 1
+INFO:EDK:1560 - IPNAME:plb_v46 INSTANCE:mb_plb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_04_a\data\plb_v4
+   6_v2_1_0.mpd line 74 - tool is overriding PARAMETER C_PLBV46_DWIDTH value to
+   32
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:ilmb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v1
+   0_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_LMB_NUM_SLAVES value to
+   1
+INFO:EDK:1560 - IPNAME:lmb_v10 INSTANCE:dlmb -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v1
+   0_v2_1_0.mpd line 71 - tool is overriding PARAMETER C_LMB_NUM_SLAVES value to
+   1
+INFO:EDK:1560 - IPNAME:bram_block INSTANCE:lmb_bram -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bra
+   m_block_v2_1_0.mpd line 69 - tool is overriding PARAMETER C_MEMSIZE value to
+   0x8000
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232_Uart_1 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a\data\x
+   ps_uartlite_v2_1_0.mpd line 76 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:xps_uartlite INSTANCE:RS232_Uart_2 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\xps_uartlite_v1_01_a\data\x
+   ps_uartlite_v2_1_0.mpd line 76 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 88 - tool is overriding PARAMETER C_SPLB_MID_WIDTH value to 1
+INFO:EDK:1560 - IPNAME:mdm INSTANCE:mdm_0 -
+   C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0
+   .mpd line 89 - tool is overriding PARAMETER C_SPLB_NUM_MASTERS value to 2
+
+Checking platform address map ...
+
+Initializing Memory...
+Running Data2Mem with the following command:
+data2mem -bm "implementation/system_bd" -bt "implementation/system.bit"  -bd
+"TestApp_Memory_microblaze_0/executable.elf" tag microblaze_0  -o b
+implementation/download.bit 
+Memory Initialization completed successfully.
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 11.4 - iMPACT L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoDetecting cable. Please wait.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS
+12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of c:/Xilinx/11.1/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Identifying chain contents...
+'0': : Manufacturer's ID = Xilinx xc5vlx110t, Version : 10
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/virtex5/data/xc5vlx110t.bsd...
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xccace, Version : 0
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xc95144xl, Version : 5
+INFO:iMPACT:501 - '1': Added Device xc5vlx110t successfully.
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Xilinx xcf32p, Version : 15
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'4': : Manufacturer's ID = Xilinx xcf32p, Version : 15
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Elapsed time =      1 sec.
+Elapsed time =      0 sec.
+'5': Loading file 'implementation/download.bit' ...
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/xc9500xl/data/xc95144xl.bsd...
+INFO:iMPACT:501 - '1': Added Device xc95144xl successfully.
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+
+done.
+UserID read from the bitstream file = 0xFFFFFFFF.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+5: Device Temperature: Current Reading:   54.81 C, Min. Reading:   29.21 C, Max.
+Reading:   58.25 C
+5: VCCINT Supply: Current Reading:   0.993 V, Min. Reading:   0.993 V, Max.
+Reading:   0.999 V
+5: VCCAUX Supply: Current Reading:   2.493 V, Min. Reading:   2.490 V, Max.
+Reading:   2.496 V
+INFO:iMPACT:501 - '5': Added Device xc5vlx110t successfully.
+
+'5': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+done.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+'5': Programmed successfully.
+Elapsed time =      9 sec.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1011 1110 0000 1011 1000 0000 
+INFO:iMPACT:579 - '5': Completed downloading bit file to device.
+INFO:iMPACT - '5': Programing completed successfully.
+INFO:iMPACT - '5': Checking done pin....done.
+
+
+
+Done!
+
+At Local date and time: Thu Feb 25 13:49:30 2010
+ make -f system.make download started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 11.4 - iMPACT L.68 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+Preference Table
+Name                 Setting             
+StartupClock         Auto_Correction     
+AutoSignature        False               
+KeepSVF              False               
+ConcurrentMode       False               
+UseHighz             False               
+ConfigOnFailure      Stop                
+UserLevel            Novice              
+MessageLevel         Detailed            
+svfUseTime           false               
+SpiByteSwap          Auto_Correction     
+AutoDetecting cable. Please wait.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS
+12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of c:/Xilinx/11.1/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc5vlx110t, Version : 10
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/virtex5/data/xc5vlx110t.bsd...
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xccace, Version : 0
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xc95144xl, Version : 5
+INFO:iMPACT:501 - '1': Added Device xc5vlx110t successfully.
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Xilinx xcf32p, Version : 15
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'4': : Manufacturer's ID = Xilinx xcf32p, Version : 15
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/xc9500xl/data/xc95144xl.bsd...
+INFO:iMPACT:501 - '1': Added Device xc95144xl successfully.
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/11.1/ISE/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+
+Elapsed time =      1 sec.
+Elapsed time =      0 sec.
+'5': Loading file 'implementation/download.bit' ...
+done.
+UserID read from the bitstream file = 0xFFFFFFFF.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+5: Device Temperature: Current Reading:   60.71 C, Min. Reading:   54.31 C, Max.
+Reading:   61.20 C
+5: VCCINT Supply: Current Reading:   0.993 V, Min. Reading:   0.990 V, Max.
+Reading:   0.996 V
+5: VCCAUX Supply: Current Reading:   2.493 V, Min. Reading:   2.490 V, Max.
+Reading:   2.493 V
+INFO:iMPACT:501 - '5': Added Device xc5vlx110t successfully.
+
+'5': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+done.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+'5': Programmed successfully.
+Elapsed time =      9 sec.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1011 1110 0000 1011 1000 0000 
+INFO:iMPACT:579 - '5': Completed downloading bit file to device.
+INFO:iMPACT - '5': Programing completed successfully.
+INFO:iMPACT - '5': Checking done pin....done.
+
+
+
+Done!
+
+Project files have changed on disk.
+
+Writing filter settings....
+
+Done writing filter settings to:
+	C:\ssd_repo\nand15-[tao]\__xps\system.filters
+
+Done writing Tab View settings to:
+	C:\ssd_repo\nand15-[tao]\__xps\system.gui
+

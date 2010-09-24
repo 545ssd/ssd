@@ -1,0 +1,10 @@
+ The following files will be modified:
+  system.mhs
+  system.mss
+
+--------------------------------------
+ The following changes will be made:
+ Core microblaze 7.20.c will be replaced by 7.20.d
+ Core clock_generator 3.01.a will be replaced by 3.02.a
+ Core mdm 1.00.f will be replaced by 1.00.g
+

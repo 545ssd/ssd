@@ -1,0 +1,14 @@
+-batch 
+-create nand_01 
+-ver 1.00.a 
+-dir C:\timSSD\nand13\ 
+-lang verilog 
+-bus fsl ms 
+-xps 
+-ise 
+-driver 
+-totalin 1
+-totalout 1
+-argin 1
+-argout 1
+-desc "new FSL core"

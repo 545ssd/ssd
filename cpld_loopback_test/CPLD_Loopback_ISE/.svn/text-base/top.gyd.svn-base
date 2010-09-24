@@ -1,0 +1,27 @@
+Pin Freeze File:  version L.57
+
+2C256256 XC2C256-6-FT256
+Wire_in S:PINM1
+Wire_out S:PINL5
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+
+
+
+
+PARTITION FB5_16 Wire_out
+
+
+
+
+
+
+
+
+
+
+
+

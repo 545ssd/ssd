@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\Xilinx\ssdproject\loopback\pcores\lightbutton_v1_00_a\devl\synthesis\lightbutton_xst.prj"
+-top lightbutton
+-p virtex5
+-ofn "C:\Xilinx\ssdproject\loopback\pcores\lightbutton_v1_00_a\devl\synthesis\lightbutton_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib lightbutton_v1_00_a

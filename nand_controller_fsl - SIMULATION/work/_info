@@ -1,0 +1,89 @@
+m255
+13
+cModel Technology
+d/afs/ece.cmu.edu/usr/yucai/Flash/ssd_repo/nand_controller_fsl - SIMULATION
+vbuffer
+IPD95m_IMz=l:dLSJH73560
+VHH@Pik3XRzEOF0R`?a`_^1
+w1272494467
+Fbuffer.v
+L0 1
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vcounter
+IRnLZN>EWon3;X;`^4l7MK1
+V7b2_B260Z_]9Ol8S2797B2
+w1272494467
+Fcounter.v
+L0 1
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vnand_controller_top
+IA8h@zV<eOJZBG_k04Ee@n1
+VI;n:QPT_aV1e>?PlG:HEj2
+w1272494467
+Fnand_controller_top2.v
+Fcontroller_parameters.v
+L0 21
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vnand_die_model
+IBSUJhzfJClmc_;34o5l:41
+VI8k`K8lKaAnD=7c`2nJ?30
+w1272494467
+Fnand_die_model.v
+Fnand_parameters.vh
+L0 141
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vnand_fsl_02
+I:[Y=mU7Ga>82o1C07:LWL1
+V6j;ibk;OIElZMR><>4:@02
+w1272494467
+Ftb.v
+L0 300
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vnand_model
+Ik^M_cz4nW<AaUQG]nJ<D?1
+VF:Djfn`hU7R:m77N890Jj0
+w1272494467
+Fnand_model.v
+Fnand_defines.vh
+Fnand_parameters.vh
+L0 30
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vregister
+IR>H5W1X38C1I>8KPk6R5e0
+V4GO55NA_i8:5oL^8YL<<N2
+w1272494467
+Fregister.v
+L0 1
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD
+vtop
+IaRfRK;CbGaKgNcUeSjk8J1
+Ve:gFW1CKLAXc^T:7k2HoD1
+w1272494467
+Ftb.v
+Fcontroller_parameters.v
+L0 18
+OE;L;6.0b;29
+r1
+31
+o+define+CLASSD

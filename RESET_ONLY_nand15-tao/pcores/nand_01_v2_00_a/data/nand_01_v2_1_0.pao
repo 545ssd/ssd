@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          F:\ssd_repo\RESET_ONLY_nand15-tao\pcores/nand_01_v2_00_a/data/nand_01_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Mar 29 11:56:00 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib nand_01_v2_00_a nand_controller_top2 verilog
+lib nand_01_v2_00_a nand_01 verilog
+lib nand_01_v2_00_a nand_controller_parameters verilog

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CPLD_NAND_CTRL.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BCD" xil_pn:name="CPLD_NAND_CTRL_xdb/cst.xbcd"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="cpld_passthrough.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="cpld_passthrough.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cpld_passthrough.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="cpld_passthrough.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="cpld_passthrough.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="cpld_passthrough.jed"/>
+    <file xil_pn:fileType="FILE_LFP" xil_pn:name="cpld_passthrough.lfp"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="cpld_passthrough.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cpld_passthrough.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="cpld_passthrough.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="cpld_passthrough.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cpld_passthrough.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="cpld_passthrough.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cpld_passthrough.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="cpld_passthrough.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="cpld_passthrough.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cpld_passthrough.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cpld_passthrough.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cpld_passthrough.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cpld_passthrough.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cpld_passthrough.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cpld_passthrough.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="cpld_passthrough.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cpld_passthrough.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cpld_passthrough.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cpld_passthrough_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="cpld_passthrough_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cpld_passthrough_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="cpld_passthrough_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cpld_passthrough_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cpld_passthrough_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1271618899" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1271618899">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1271618899" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7121685797798334288" xil_pn:start_ts="1271618899">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1273006882" xil_pn:in_ck="-8111119704739924967" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="6859158633321892381" xil_pn:start_ts="1273006875">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="cpld_passthrough.cmd_log"/>
+      <outfile xil_pn:name="cpld_passthrough.lso"/>
+      <outfile xil_pn:name="cpld_passthrough.ngc"/>
+      <outfile xil_pn:name="cpld_passthrough.ngr"/>
+      <outfile xil_pn:name="cpld_passthrough.prj"/>
+      <outfile xil_pn:name="cpld_passthrough.stx"/>
+      <outfile xil_pn:name="cpld_passthrough.syr"/>
+      <outfile xil_pn:name="cpld_passthrough.xst"/>
+      <outfile xil_pn:name="cpld_passthrough_summary.html"/>
+      <outfile xil_pn:name="cpld_passthrough_xst.xrpt"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1273007874" xil_pn:in_ck="1579511974672366406" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="2544711210685698428" xil_pn:start_ts="1273007869">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPLD_NAND_CTRL_xdb/cst.xbcd"/>
+    </transform>
+    <transform xil_pn:end_ts="1273006889" xil_pn:in_ck="-2816396287067301562" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-7850409713972882024" xil_pn:start_ts="1273006883">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="cpld_passthrough.bld"/>
+      <outfile xil_pn:name="cpld_passthrough.cmd_log"/>
+      <outfile xil_pn:name="cpld_passthrough.ngd"/>
+      <outfile xil_pn:name="cpld_passthrough_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1273006899" xil_pn:in_ck="1579511974672358913" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-1807389384565514314" xil_pn:start_ts="1273006889">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="cpld_passthrough.chk"/>
+      <outfile xil_pn:name="cpld_passthrough.cxt"/>
+      <outfile xil_pn:name="cpld_passthrough.gyd"/>
+      <outfile xil_pn:name="cpld_passthrough.log"/>
+      <outfile xil_pn:name="cpld_passthrough.mfd"/>
+      <outfile xil_pn:name="cpld_passthrough.nga"/>
+      <outfile xil_pn:name="cpld_passthrough.pad"/>
+      <outfile xil_pn:name="cpld_passthrough.pnx"/>
+      <outfile xil_pn:name="cpld_passthrough.rpt"/>
+      <outfile xil_pn:name="cpld_passthrough.tim"/>
+      <outfile xil_pn:name="cpld_passthrough.tspec"/>
+      <outfile xil_pn:name="cpld_passthrough.vm6"/>
+      <outfile xil_pn:name="cpld_passthrough.xml"/>
+      <outfile xil_pn:name="cpld_passthrough_build.xml"/>
+      <outfile xil_pn:name="cpld_passthrough_html"/>
+      <outfile xil_pn:name="cpld_passthrough_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1273006902" xil_pn:in_ck="1579511974672367777" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="2365158574651375362" xil_pn:start_ts="1273006899">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="cpld_passthrough.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1273006792" xil_pn:in_ck="1579511974672354491" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-3223234765801749484" xil_pn:start_ts="1273006790">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1273006899" xil_pn:in_ck="1579511974672367777" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1273006897">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

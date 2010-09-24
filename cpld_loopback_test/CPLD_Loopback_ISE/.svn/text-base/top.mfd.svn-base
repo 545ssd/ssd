@@ -1,0 +1,11 @@
+MDF Database:  version 1.0
+MDF_INFO | top | XC2C256-6-FT256
+MACROCELL | 4 | 15 | Wire_out_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | Wire_in
+INPUTP | 1 | 43
+EQ | 1 | 
+   Wire_out = Wire_in;	// (1 pt, 1 inp)
+
+PIN | Wire_in | 64 | 16 | LVCMOS18 | 43 | 1 | 4 | 15
+PIN | Wire_out | 536871040 | 0 | LVCMOS18 | 42

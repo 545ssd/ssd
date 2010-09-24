@@ -1,0 +1,11 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn C:\timSSD\nand13\pcores/nand_01_v1_00_a/devl/synthesis/nand_01_xst.prj
+-top nand_01
+-p virtex2p
+-ofn C:\timSSD\nand13\pcores/nand_01_v1_00_a/devl/synthesis/nand_01_xst.ngc
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /

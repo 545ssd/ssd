@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl -lp C:/EDK-XUPV5-LX110T-Pack/lib/   TestApp_Memory_microblaze_0/executable.elf -msg __xps/ise/xmsgprops.lst -s mti -X C:/ssd_repo/nand15-[tao]/

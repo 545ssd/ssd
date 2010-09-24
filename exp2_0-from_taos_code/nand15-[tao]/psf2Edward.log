@@ -1,0 +1,87 @@
+
+Checking platform configuration ...
+IPNAME:plb_v46 INSTANCE:mb_plb -
+F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\system.mhs line 69 - 2 master(s)
+: 3 slave(s)
+IPNAME:lmb_v10 INSTANCE:ilmb -
+F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\system.mhs line 76 - 1 master(s)
+: 1 slave(s)
+IPNAME:lmb_v10 INSTANCE:dlmb -
+F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\system.mhs line 83 - 1 master(s)
+: 1 slave(s)
+IPNAME:fsl_v20 INSTANCE:nand_01_0_to_microblaze_0 -
+F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\system.mhs line 183 - 1 master(s)
+: 1 slave(s)
+IPNAME:fsl_v20 INSTANCE:microblaze_0_to_nand_01_0 -
+F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\system.mhs line 226 - 1 master(s)
+: 1 slave(s)
+
+Checking port drivers...
+WARNING:EDK:2098 - PORT:IWAIT CONNECTOR:ilmb_LMB_Wait -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\microbla
+   ze_v2_1_0.mpd line 234 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:DWAIT CONNECTOR:dlmb_LMB_Wait -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\microbla
+   ze_v2_1_0.mpd line 270 - No driver found. Port will be driven to GND!
+WARNING:EDK:2098 - PORT:bscan_tdo1 CONNECTOR:bscan_tdo1 -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 230 - No driver found. Port will be driven to GND!
+WARNING:EDK:2099 - PORT:I_ADDRTAG CONNECTOR:ilmb_M_ADDRTAG -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\microbla
+   ze_v2_1_0.mpd line 232 - floating connection!
+WARNING:EDK:2099 - PORT:D_ADDRTAG CONNECTOR:dlmb_M_ADDRTAG -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\microbla
+   ze_v2_1_0.mpd line 273 - floating connection!
+WARNING:EDK:2099 - PORT:FSL0_S_CLK CONNECTOR:nand_01_0_to_microblaze_0_FSL_S_Clk
+   -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\microbla
+   ze_v2_1_0.mpd line 370 - floating connection!
+WARNING:EDK:2099 - PORT:FSL0_M_CLK CONNECTOR:microblaze_0_to_nand_01_0_FSL_M_Clk
+   -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v7_20_d\data\microbla
+   ze_v2_1_0.mpd line 375 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_tdi CONNECTOR:bscan_tdi -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 223 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_reset CONNECTOR:bscan_reset -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 224 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_shift CONNECTOR:bscan_shift -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 225 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_update CONNECTOR:bscan_update -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 226 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_capture CONNECTOR:bscan_capture -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 227 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_sel1 CONNECTOR:bscan_sel1 -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 228 - floating connection!
+WARNING:EDK:2099 - PORT:bscan_drck1 CONNECTOR:bscan_drck1 -
+   f:\Xilinx\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v1_00_g\data\mdm_v2_1_0.mpd
+   line 229 - floating connection!
+WARNING:EDK:2099 - PORT:FSL_S_Clk CONNECTOR:microblaze_0_to_nand_01_0_FSL_S_Clk
+   -
+   F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\pcores\nand_01_v1_00_a\data\na
+   nd_01_v2_1_0.mpd line 27 - floating connection!
+WARNING:EDK:2099 - PORT:FSL_M_Clk CONNECTOR:nand_01_0_to_microblaze_0_FSL_M_Clk
+   -
+   F:\ssd_repo\exp2_0-from_taos_code\nand15-[tao]\pcores\nand_01_v1_00_a\data\na
+   nd_01_v2_1_0.mpd line 32 - floating connection!
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...

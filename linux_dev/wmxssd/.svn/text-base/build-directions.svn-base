@@ -1,0 +1,16 @@
+instructions to build 
+
+ cd /usr/src/linux-2.6.31.5-new2/
+ sudo make modules   // builds the stuff
+ sudo make modules_install  //copies the modules into working lib directory
+
+
+  <reboot the PC to get xupv5 unloaded, and reboot MB firmware>
+sudo modprobe -a mtdblock // mtd, mtdchar, and wmxssd_mod all get probed automatically on boot for some reason
+
+dmesg // displays kernel log -- look here after boot to make sure it found xupv5 and init'd, etc.
+
+sudo cp ~/svn_wconstab_linuxdev/wmxssd/willbaby.jffs2.image /dev/mtd0 // copies the disk image to the char interface
+sudo mount -t jffs2 /dev/mtdblock0 /mnt/mtd // mounts the block interface 
+
+ls /mnt/mtd // look at the contents of our freshly mounted drive.  check for file called foo

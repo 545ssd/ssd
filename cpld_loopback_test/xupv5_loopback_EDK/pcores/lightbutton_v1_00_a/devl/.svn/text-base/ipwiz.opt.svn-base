@@ -1,0 +1,8 @@
+-batch 
+-create lightbutton 
+-ver 1.00.a 
+-dir "C:\Xilinx\ssdproject\loopback" 
+-lang verilog 
+-bus plbv46 s 
+-xps 
+-ise 

@@ -1,0 +1,559 @@
+# vsim -do {run -all} -c top 
+# //  ModelSim SE 6.0b Dec  1 2004 Linux 2.6.27.29-0.1-pae
+# //
+# //  Copyright Mentor Graphics Corporation 2004
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.top
+# Loading work.nand_fsl_02
+# Loading work.counter
+# Loading work.register
+# Loading work.buffer
+# Loading work.nand_controller_top
+# Loading work.nand_model
+# Loading work.nand_die_model
+# run -all 
+# top.mt29.uut_0.INFO at time                    0: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time                    0: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_0.INFO at time 0.000 ns: Device is Powering Up ...
+# top.mt29.uut_1.INFO at time 0.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_1.INFO at time 0.000 ns: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_1.INFO at time 0.000 ns: Device is Powering Up ...
+# (0.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (10.000 ns) FSL RESET
+# (10.000 ns) Invalid state reached!
+# (20.000 ns) Reset state
+# (30.000 ns) Reset_INIT state
+# (250.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Status 00
+# (270.000 ns) Reset_INIT_WAIT state
+# top.mt29.uut_1.INFO at time 10000.000 ns: PowerUp Complete.
+# top.mt29.uut_0.INFO at time 10000.000 ns: PowerUp Complete.
+# (164110.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (164110.000 ns) Done!
+# (164120.000 ns) Done!
+# (164170.000 ns) Reset_D0_LD_CMD0 state
+# (164170.000 ns) Reset_D0_LD_CMD0 state
+# (164180.000 ns) Reset_D0_LD_CMD1 state
+# top.mt29.uut_0.INFO at time 164210.000 ns: Entering Reset ...
+# top.mt29.uut_0.INFO at time 164310.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 164310.000 ns: INFO: Cleared queued plane 1. Value 0
+# (164310.000 ns) Reset_D0_LD_CMD2 state
+# (164310.000 ns) Reset_D0_LD_CMD2 state
+# (164320.000 ns) Reset_D0_LD_CMD2 state
+# (164320.000 ns) Reset_D0_LD_CMD_WAIT state
+# top.mt29.uut_0.INFO at time 1164310.000 ns: Reset Complete
+# (1164320.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (1164350.000 ns) Reset_D1_LD_CMD0 state
+# (1164350.000 ns) Reset_D1_LD_CMD0 state
+# (1164360.000 ns) Reset_D1_LD_CMD0 state
+# (1164360.000 ns) Reset_D1_LD_CMD1 state
+# top.mt29.uut_1.INFO at time 1164390.000 ns: Entering Reset ...
+# top.mt29.uut_1.INFO at time 1164490.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_1.INFO at time 1164490.000 ns: INFO: Cleared queued plane 1. Value 0
+# (1164490.000 ns) Reset_D1_LD_CMD2 state
+# (1164490.000 ns) Reset_D1_LD_CMD2 state
+# (1164500.000 ns) Reset_D1_LD_CMD_WAIT state
+# top.mt29.uut_1.INFO at time 2164490.000 ns: Reset Complete
+# (2164500.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (2164530.000 ns) Reset_GET_STATUS_LD_CMD0 state
+# (2164530.000 ns) Reset_GET_STATUS_LD_CMD0 state
+# (2164540.000 ns) Reset_GET_STATUS_LD_CMD1 state
+# (2164540.000 ns) Reset_GET_STATUS_LD_CMD1 state
+# (2164550.000 ns) Reset_END_WAIT state
+# top.mt29.uut_1.INFO at time 2164560.000 ns: Entering Reset ...
+# top.mt29.uut_1.INFO at time 2164660.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_1.INFO at time 2164660.000 ns: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_1.INFO at time 2169660.000 ns: Reset Complete
+# (2169670.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (2169670.000 ns) Status: 00
+# (2169680.000 ns) Status: 00
+# (2169680.000 ns) Out_Control state
+# (2169680.000 ns) 0x00000000 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (2169720.000 ns) 0xffffffff ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (2169770.000 ns) In_Control state
+# (2169770.000 ns) 0xx ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_S_Read went high!
+# (3200020.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00100002 - control_q = 0000
+# (3200020.000 ns) 0x1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_S_Read went high!
+# (3200030.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00000002 - control_q = 0000
+# (3200030.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data 00000002 - control_q = 0002
+# (3200040.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data deadbee0 - control_q = 0002
+# (3200040.000 ns) Program_Page state 0000 000
+# (3200040.000 ns) storing 0xdeadbee0 at mem index 0000
+# (3200040.000 ns) Program_Page state 0000 000
+# (3200040.000 ns) storing 0xdeadbee0 at mem index 0000
+# (3200050.000 ns) Program_Page state 0000 000
+# (3200050.000 ns) storing 0xdeadbee1 at mem index 0000
+# (3200050.000 ns) Program_Page state 0004 001
+# (3200050.000 ns) storing 0xdeadbee1 at mem index 0004
+# (3200060.000 ns) Program_Page state 0004 001
+# (3200060.000 ns) storing 0xdeadbee2 at mem index 0004
+# (3200060.000 ns) Program_Page state 0008 002
+# (3200060.000 ns) storing 0xdeadbee2 at mem index 0008
+# (3200070.000 ns) Program_Page state 0008 002
+# (3200070.000 ns) storing 0xdeadbee3 at mem index 0008
+# (3200070.000 ns) Program_Page state 000c 003
+# (3200070.000 ns) storing 0xdeadbee3 at mem index 000c
+# (3200080.000 ns) Program_Page state 000c 003
+# (3200080.000 ns) storing 0xdeadbee3 at mem index 000c
+# (3200080.000 ns) Program_Page state 0010 004
+# (3200090.000 ns) Program_Page state 0010 004
+# (3200090.000 ns) Program_Page_LD_CMDADDR0 state
+# top.mt29.uut_0.INFO at time 3200120.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 3200120.000 ns: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_0.INFO at time 3200120.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 3200120.000 ns: INFO: Cleared queued plane 1. Value 0
+# (3200220.000 ns) Program_Page_LD_CMDADDR1 state
+# (3200220.000 ns) Program_Page_LD_CMDADDR1 state
+# (3200230.000 ns) Program_Page_LD_DATA0 state raddr=0000
+# top.mt29.uut_0.INFO at time 3200230.000 ns: Lun Addr0 0  : Lun Addr1 0
+# top.mt29.uut_0.INFO at time 3200230.000 ns: DIE 0 ACTIVE
+# (3200240.000 ns) Program_Page_LD_DATA0 state raddr=0000
+# (3200240.000 ns) Program_Page_LD_DATA1 state raddr=0000 count=0010
+# nData_In = de
+# (3200250.000 ns) Program_Page_LD_DATA1 state raddr=0000 count=0010
+# nData_In = de
+# (3200250.000 ns) Program_Page_LD_DATA_WAIT state raddr=0000
+# (3200280.000 ns) Data_Done
+# (3200290.000 ns) Data_Done
+# (3200290.000 ns) Program_Page_LD_DATA1 state raddr=0000 count=0010
+# nData_In = de
+# (3200290.000 ns) Program_Page_LD_DATA1 state raddr=0001 count=0010
+# nData_In = ad
+# (3200300.000 ns) Program_Page_LD_DATA_WAIT state raddr=0001
+# (3200310.000 ns) Data_Done
+# (3200320.000 ns) Data_Done
+# (3200320.000 ns) Program_Page_LD_DATA1 state raddr=0001 count=0010
+# nData_In = ad
+# (3200320.000 ns) Program_Page_LD_DATA1 state raddr=0002 count=0010
+# nData_In = be
+# (3200330.000 ns) Program_Page_LD_DATA1 state raddr=0002 count=0010
+# nData_In = be
+# (3200330.000 ns) Program_Page_LD_DATA_WAIT state raddr=0002
+# (3200340.000 ns) Data_Done
+# (3200350.000 ns) Program_Page_LD_DATA1 state raddr=0002 count=0010
+# nData_In = be
+# (3200350.000 ns) Program_Page_LD_DATA1 state raddr=0003 count=0010
+# nData_In = e0
+# (3200360.000 ns) Program_Page_LD_DATA1 state raddr=0003 count=0010
+# nData_In = e0
+# (3200360.000 ns) Program_Page_LD_DATA_WAIT state raddr=0003
+# (3200370.000 ns) Data_Done
+# (3200380.000 ns) Program_Page_LD_DATA0 state raddr=0003
+# (3200380.000 ns) Program_Page_LD_DATA0 state raddr=0004
+# (3200390.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3200390.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3200400.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3200400.000 ns) Program_Page_LD_DATA_WAIT state raddr=0004
+# (3200410.000 ns) Data_Done
+# (3200420.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3200420.000 ns) Program_Page_LD_DATA1 state raddr=0005 count=0010
+# nData_In = ad
+# (3200430.000 ns) Program_Page_LD_DATA_WAIT state raddr=0005
+# (3200440.000 ns) Data_Done
+# (3200450.000 ns) Data_Done
+# (3200450.000 ns) Program_Page_LD_DATA1 state raddr=0005 count=0010
+# nData_In = ad
+# (3200450.000 ns) Program_Page_LD_DATA1 state raddr=0006 count=0010
+# nData_In = be
+# (3200460.000 ns) Program_Page_LD_DATA_WAIT state raddr=0006
+# (3200470.000 ns) Data_Done
+# (3200480.000 ns) Data_Done
+# (3200480.000 ns) Program_Page_LD_DATA1 state raddr=0006 count=0010
+# nData_In = be
+# (3200480.000 ns) Program_Page_LD_DATA1 state raddr=0007 count=0010
+# nData_In = e1
+# (3200490.000 ns) Program_Page_LD_DATA1 state raddr=0007 count=0010
+# nData_In = e1
+# (3200490.000 ns) Program_Page_LD_DATA_WAIT state raddr=0007
+# (3200500.000 ns) Data_Done
+# (3200510.000 ns) Program_Page_LD_DATA0 state raddr=0007
+# (3200510.000 ns) Program_Page_LD_DATA0 state raddr=0008
+# (3200520.000 ns) Program_Page_LD_DATA0 state raddr=0008
+# (3200520.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3200520.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3200530.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3200530.000 ns) Program_Page_LD_DATA_WAIT state raddr=0008
+# (3200540.000 ns) Data_Done
+# (3200550.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3200550.000 ns) Program_Page_LD_DATA1 state raddr=0009 count=0010
+# nData_In = ad
+# (3200560.000 ns) Program_Page_LD_DATA1 state raddr=0009 count=0010
+# nData_In = ad
+# (3200560.000 ns) Program_Page_LD_DATA_WAIT state raddr=0009
+# (3200570.000 ns) Data_Done
+# (3200580.000 ns) Program_Page_LD_DATA1 state raddr=0009 count=0010
+# nData_In = ad
+# (3200580.000 ns) Program_Page_LD_DATA1 state raddr=000a count=0010
+# nData_In = be
+# (3200590.000 ns) Program_Page_LD_DATA_WAIT state raddr=000a
+# (3200600.000 ns) Data_Done
+# (3200610.000 ns) Data_Done
+# (3200610.000 ns) Program_Page_LD_DATA1 state raddr=000a count=0010
+# nData_In = be
+# (3200610.000 ns) Program_Page_LD_DATA1 state raddr=000b count=0010
+# nData_In = e2
+# (3200620.000 ns) Program_Page_LD_DATA_WAIT state raddr=000b
+# (3200630.000 ns) Data_Done
+# (3200640.000 ns) Data_Done
+# (3200640.000 ns) Program_Page_LD_DATA0 state raddr=000b
+# (3200640.000 ns) Program_Page_LD_DATA0 state raddr=000c
+# (3200650.000 ns) Program_Page_LD_DATA0 state raddr=000c
+# (3200650.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3200650.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3200660.000 ns) Program_Page_LD_DATA_WAIT state raddr=000c
+# (3200670.000 ns) Data_Done
+# (3200680.000 ns) Data_Done
+# (3200680.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3200680.000 ns) Program_Page_LD_DATA1 state raddr=000d count=0010
+# nData_In = ad
+# (3200690.000 ns) Program_Page_LD_DATA1 state raddr=000d count=0010
+# nData_In = ad
+# (3200690.000 ns) Program_Page_LD_DATA_WAIT state raddr=000d
+# (3200700.000 ns) Data_Done
+# (3200710.000 ns) Program_Page_LD_DATA1 state raddr=000d count=0010
+# nData_In = ad
+# (3200710.000 ns) Program_Page_LD_DATA1 state raddr=000e count=0010
+# nData_In = be
+# (3200720.000 ns) Program_Page_LD_DATA1 state raddr=000e count=0010
+# nData_In = be
+# (3200720.000 ns) Program_Page_LD_DATA_WAIT state raddr=000e
+# (3200730.000 ns) Data_Done
+# (3200740.000 ns) Program_Page_LD_DATA1 state raddr=000e count=0010
+# nData_In = be
+# (3200740.000 ns) Program_Page_LD_DATA1 state raddr=000f count=0010
+# nData_In = e3
+# (3200750.000 ns) Program_Page_LD_DATA_WAIT state raddr=000f
+# (3200760.000 ns) Data_Done
+# (3200770.000 ns) Data_Done
+# (3200770.000 ns) Program_Page_LD_DATA0 state raddr=000f
+# (3200770.000 ns) Program_Page_LD_DATA0 state raddr=0010
+# (3200780.000 ns) Program_Page_LD_DATA1 state raddr=0010 count=0010
+# nData_In = 00
+# (3200780.000 ns) Program_Page_LD_DATA1 state raddr=0010 count=0010
+# nData_In = 00
+# (3200790.000 ns) Program_Page_END_WAIT state
+# top.mt29.uut_0.INFO at time 3200790.000 ns: INFO: Program Page Set queued plane 0. Value 1
+# top.mt29.uut_0.INFO at time 3200890.000 ns: INFO: Checked queued plane 0. Value 1
+# (3451020.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (3451020.000 ns) Done! - status 00
+# (3451030.000 ns) Out_Control state
+# (3451040.000 ns) 0x00100002 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3451080.000 ns) 0x00000002 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3451130.000 ns) In_Control state
+# (3600080.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00100004 - control_q = 0000
+# (3600080.000 ns) 0x1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_S_Read went high!
+# (3600090.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00000002 - control_q = 0000
+# (3600090.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data 00000002 - control_q = 0004
+# (3600100.000 ns) Read_Data state
+# (3600100.000 ns) Read_Data state
+# (3600110.000 ns) Read_Page_LD_CMDADDR0
+# (3600240.000 ns) Read_Page_LD_CMDADDR1
+# (3600240.000 ns) Read_Page_LD_CMDADDR1
+# (3600250.000 ns) Read_Page_LD_CMDADDR1
+# (3600250.000 ns) Read_Page_GET_DATA state
+# top.mt29.uut_0.INFO at time 3600250.000 ns: Lun Addr0 0  : Lun Addr1 0
+# top.mt29.uut_0.INFO at time 3600250.000 ns: DIE 0 ACTIVE
+# top.mt29.uut_0.INFO at time 3600250.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 3600250.000 ns: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_0.INFO at time 3600270.000 ns: INFO: Page Read Confirm Set queued plane 0. Value 1
+# top.mt29.uut_0.INFO at time 3600370.000 ns: INFO: Checked queued plane 0. Value 1
+# (3625460.000 ns) Just read raddr 0000, byte de
+# (3625510.000 ns) Just read raddr 0001, byte ad
+# (3625520.000 ns) Just read raddr 0001, byte ad
+# (3625560.000 ns) Just read raddr 0002, byte be
+# (3625570.000 ns) Just read raddr 0002, byte be
+# (3625610.000 ns) Just read raddr 0003, byte e0
+# (3625660.000 ns) Just read raddr 0004, byte de
+# (3625710.000 ns) Just read raddr 0005, byte ad
+# (3625720.000 ns) Just read raddr 0005, byte ad
+# (3625760.000 ns) Just read raddr 0006, byte be
+# (3625770.000 ns) Just read raddr 0006, byte be
+# (3625810.000 ns) Just read raddr 0007, byte e1
+# (3625860.000 ns) Just read raddr 0008, byte de
+# (3625910.000 ns) Just read raddr 0009, byte ad
+# (3625920.000 ns) Just read raddr 0009, byte ad
+# (3625960.000 ns) Just read raddr 000a, byte be
+# (3625970.000 ns) Just read raddr 000a, byte be
+# (3626010.000 ns) Just read raddr 000b, byte e2
+# (3626060.000 ns) Just read raddr 000c, byte de
+# (3626110.000 ns) Just read raddr 000d, byte ad
+# (3626120.000 ns) Just read raddr 000d, byte ad
+# (3626160.000 ns) Just read raddr 000e, byte be
+# (3626170.000 ns) Just read raddr 000e, byte be
+# (3626210.000 ns) Just read raddr 000f, byte e3
+# (3626220.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (3626230.000 ns) Read_Page_END_WAIT state
+# (3626230.000 ns) Done!
+# (3626230.000 ns) Done!
+# (3626240.000 ns) Done!
+# (3626240.000 ns) Read_Page_END_OUTDATA raddr - 0000
+# (3626240.000 ns) Read_Page_END_OUTDATA raddr - 0000
+# (3626240.000 ns) 0xdeadbee0 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3626280.000 ns) Read_Page_END_OUTDATA raddr - 0004
+# (3626280.000 ns) 0xdeadbee1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3626320.000 ns) Read_Page_END_OUTDATA raddr - 0008
+# (3626320.000 ns) 0xdeadbee2 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3626360.000 ns) Read_Page_END_OUTDATA raddr - 000c
+# (3626360.000 ns) 0xdeadbee3 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# last word received = 0xdeadbee3
+# (3626410.000 ns) Out_Control state
+# (3626440.000 ns) 0x00100404 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3626480.000 ns) 0x00000002 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3626530.000 ns) In_Control state
+# (3646370.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00100002 - control_q = 0000
+# (3646370.000 ns) 0x1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_S_Read went high!
+# (3646380.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00000000 - control_q = 0000
+# (3646380.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data 00000000 - control_q = 0002
+# (3646390.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data deadbee0 - control_q = 0002
+# (3646390.000 ns) Program_Page state 0000 000
+# (3646390.000 ns) storing 0xdeadbee0 at mem index 0000
+# (3646390.000 ns) Program_Page state 0000 000
+# (3646390.000 ns) storing 0xdeadbee0 at mem index 0000
+# (3646400.000 ns) Program_Page state 0000 000
+# (3646400.000 ns) storing 0xdeadbee1 at mem index 0000
+# (3646400.000 ns) Program_Page state 0004 001
+# (3646400.000 ns) storing 0xdeadbee1 at mem index 0004
+# (3646410.000 ns) Program_Page state 0004 001
+# (3646410.000 ns) storing 0xdeadbee2 at mem index 0004
+# (3646410.000 ns) Program_Page state 0008 002
+# (3646410.000 ns) storing 0xdeadbee2 at mem index 0008
+# (3646420.000 ns) Program_Page state 0008 002
+# (3646420.000 ns) storing 0xdeadbee3 at mem index 0008
+# (3646420.000 ns) Program_Page state 000c 003
+# (3646420.000 ns) storing 0xdeadbee3 at mem index 000c
+# (3646430.000 ns) Program_Page state 0010 004
+# (3646440.000 ns) Program_Page state 0010 004
+# (3646440.000 ns) Program_Page_LD_CMDADDR0 state
+# top.mt29.uut_0.INFO at time 3646470.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 3646470.000 ns: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_0.INFO at time 3646470.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 3646470.000 ns: INFO: Cleared queued plane 1. Value 0
+# (3646570.000 ns) Program_Page_LD_CMDADDR1 state
+# (3646570.000 ns) Program_Page_LD_CMDADDR1 state
+# (3646580.000 ns) Program_Page_LD_DATA0 state raddr=0000
+# top.mt29.uut_0.INFO at time 3646580.000 ns: Lun Addr0 0  : Lun Addr1 0
+# top.mt29.uut_0.INFO at time 3646580.000 ns: DIE 0 ACTIVE
+# (3646590.000 ns) Program_Page_LD_DATA1 state raddr=0000 count=0010
+# nData_In = de
+# (3646600.000 ns) Program_Page_LD_DATA1 state raddr=0000 count=0010
+# nData_In = de
+# (3646600.000 ns) Program_Page_LD_DATA_WAIT state raddr=0000
+# (3646630.000 ns) Data_Done
+# (3646640.000 ns) Data_Done
+# (3646640.000 ns) Program_Page_LD_DATA1 state raddr=0000 count=0010
+# nData_In = de
+# (3646640.000 ns) Program_Page_LD_DATA1 state raddr=0001 count=0010
+# nData_In = ad
+# (3646650.000 ns) Program_Page_LD_DATA1 state raddr=0001 count=0010
+# nData_In = ad
+# (3646650.000 ns) Program_Page_LD_DATA_WAIT state raddr=0001
+# (3646660.000 ns) Data_Done
+# (3646670.000 ns) Program_Page_LD_DATA1 state raddr=0001 count=0010
+# nData_In = ad
+# (3646670.000 ns) Program_Page_LD_DATA1 state raddr=0002 count=0010
+# nData_In = be
+# (3646680.000 ns) Program_Page_LD_DATA1 state raddr=0002 count=0010
+# nData_In = be
+# (3646680.000 ns) Program_Page_LD_DATA_WAIT state raddr=0002
+# (3646690.000 ns) Data_Done
+# (3646700.000 ns) Program_Page_LD_DATA1 state raddr=0002 count=0010
+# nData_In = be
+# (3646700.000 ns) Program_Page_LD_DATA1 state raddr=0003 count=0010
+# nData_In = e0
+# (3646710.000 ns) Program_Page_LD_DATA_WAIT state raddr=0003
+# (3646720.000 ns) Data_Done
+# (3646730.000 ns) Data_Done
+# (3646730.000 ns) Program_Page_LD_DATA0 state raddr=0003
+# (3646730.000 ns) Program_Page_LD_DATA0 state raddr=0004
+# (3646740.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3646740.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3646750.000 ns) Program_Page_LD_DATA_WAIT state raddr=0004
+# (3646760.000 ns) Data_Done
+# (3646770.000 ns) Data_Done
+# (3646770.000 ns) Program_Page_LD_DATA1 state raddr=0004 count=0010
+# nData_In = de
+# (3646770.000 ns) Program_Page_LD_DATA1 state raddr=0005 count=0010
+# nData_In = ad
+# (3646780.000 ns) Program_Page_LD_DATA_WAIT state raddr=0005
+# (3646790.000 ns) Data_Done
+# (3646800.000 ns) Data_Done
+# (3646800.000 ns) Program_Page_LD_DATA1 state raddr=0005 count=0010
+# nData_In = ad
+# (3646800.000 ns) Program_Page_LD_DATA1 state raddr=0006 count=0010
+# nData_In = be
+# (3646810.000 ns) Program_Page_LD_DATA1 state raddr=0006 count=0010
+# nData_In = be
+# (3646810.000 ns) Program_Page_LD_DATA_WAIT state raddr=0006
+# (3646820.000 ns) Data_Done
+# (3646830.000 ns) Program_Page_LD_DATA1 state raddr=0006 count=0010
+# nData_In = be
+# (3646830.000 ns) Program_Page_LD_DATA1 state raddr=0007 count=0010
+# nData_In = e1
+# (3646840.000 ns) Program_Page_LD_DATA1 state raddr=0007 count=0010
+# nData_In = e1
+# (3646840.000 ns) Program_Page_LD_DATA_WAIT state raddr=0007
+# (3646850.000 ns) Data_Done
+# (3646860.000 ns) Program_Page_LD_DATA0 state raddr=0007
+# (3646860.000 ns) Program_Page_LD_DATA0 state raddr=0008
+# (3646870.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3646870.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3646880.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3646880.000 ns) Program_Page_LD_DATA_WAIT state raddr=0008
+# (3646890.000 ns) Data_Done
+# (3646900.000 ns) Program_Page_LD_DATA1 state raddr=0008 count=0010
+# nData_In = de
+# (3646900.000 ns) Program_Page_LD_DATA1 state raddr=0009 count=0010
+# nData_In = ad
+# (3646910.000 ns) Program_Page_LD_DATA_WAIT state raddr=0009
+# (3646920.000 ns) Data_Done
+# (3646930.000 ns) Data_Done
+# (3646930.000 ns) Program_Page_LD_DATA1 state raddr=0009 count=0010
+# nData_In = ad
+# (3646930.000 ns) Program_Page_LD_DATA1 state raddr=000a count=0010
+# nData_In = be
+# (3646940.000 ns) Program_Page_LD_DATA_WAIT state raddr=000a
+# (3646950.000 ns) Data_Done
+# (3646960.000 ns) Data_Done
+# (3646960.000 ns) Program_Page_LD_DATA1 state raddr=000a count=0010
+# nData_In = be
+# (3646960.000 ns) Program_Page_LD_DATA1 state raddr=000b count=0010
+# nData_In = e2
+# (3646970.000 ns) Program_Page_LD_DATA1 state raddr=000b count=0010
+# nData_In = e2
+# (3646970.000 ns) Program_Page_LD_DATA_WAIT state raddr=000b
+# (3646980.000 ns) Data_Done
+# (3646990.000 ns) Program_Page_LD_DATA0 state raddr=000b
+# (3646990.000 ns) Program_Page_LD_DATA0 state raddr=000c
+# (3647000.000 ns) Program_Page_LD_DATA0 state raddr=000c
+# (3647000.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3647000.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3647010.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3647010.000 ns) Program_Page_LD_DATA_WAIT state raddr=000c
+# (3647020.000 ns) Data_Done
+# (3647030.000 ns) Program_Page_LD_DATA1 state raddr=000c count=0010
+# nData_In = de
+# (3647030.000 ns) Program_Page_LD_DATA1 state raddr=000d count=0010
+# nData_In = ad
+# (3647040.000 ns) Program_Page_LD_DATA1 state raddr=000d count=0010
+# nData_In = ad
+# (3647040.000 ns) Program_Page_LD_DATA_WAIT state raddr=000d
+# (3647050.000 ns) Data_Done
+# (3647060.000 ns) Program_Page_LD_DATA1 state raddr=000d count=0010
+# nData_In = ad
+# (3647060.000 ns) Program_Page_LD_DATA1 state raddr=000e count=0010
+# nData_In = be
+# (3647070.000 ns) Program_Page_LD_DATA_WAIT state raddr=000e
+# (3647080.000 ns) Data_Done
+# (3647090.000 ns) Data_Done
+# (3647090.000 ns) Program_Page_LD_DATA1 state raddr=000e count=0010
+# nData_In = be
+# (3647090.000 ns) Program_Page_LD_DATA1 state raddr=000f count=0010
+# nData_In = e3
+# (3647100.000 ns) Program_Page_LD_DATA_WAIT state raddr=000f
+# (3647110.000 ns) Data_Done
+# (3647120.000 ns) Data_Done
+# (3647120.000 ns) Program_Page_LD_DATA0 state raddr=000f
+# (3647120.000 ns) Program_Page_LD_DATA0 state raddr=0010
+# (3647130.000 ns) Program_Page_LD_DATA0 state raddr=0010
+# (3647130.000 ns) Program_Page_LD_DATA1 state raddr=0010 count=0010
+# nData_In = 00
+# (3647130.000 ns) Program_Page_LD_DATA1 state raddr=0010 count=0010
+# nData_In = 00
+# (3647140.000 ns) Program_Page_END_WAIT state
+# top.mt29.uut_0.INFO at time 3647140.000 ns: INFO: Program Page Set queued plane 0. Value 1
+# top.mt29.uut_0.INFO at time 3647240.000 ns: INFO: Checked queued plane 0. Value 1
+# (3897370.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (3897370.000 ns) Done! - status 00
+# (3897380.000 ns) Out_Control state
+# (3897400.000 ns) 0x00100002 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3897440.000 ns) 0x00000000 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (3897490.000 ns) In_Control state
+# (4046430.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00100004 - control_q = 0000
+# (4046430.000 ns) 0x1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_S_Read went high!
+# (4046440.000 ns) FSL_S_Exists, control_count 00 - FSL_S_Data 00000000 - control_q = 0000
+# (4046440.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data 00000000 - control_q = 0004
+# (4046450.000 ns) FSL_S_Exists, control_count 01 - FSL_S_Data 00000000 - control_q = 0004
+# (4046450.000 ns) Read_Data state
+# (4046450.000 ns) Read_Data state
+# (4046460.000 ns) Read_Page_LD_CMDADDR0
+# (4046590.000 ns) Read_Page_LD_CMDADDR1
+# (4046590.000 ns) Read_Page_LD_CMDADDR1
+# (4046600.000 ns) Read_Page_LD_CMDADDR1
+# (4046600.000 ns) Read_Page_GET_DATA state
+# top.mt29.uut_0.INFO at time 4046600.000 ns: Lun Addr0 0  : Lun Addr1 0
+# top.mt29.uut_0.INFO at time 4046600.000 ns: DIE 0 ACTIVE
+# top.mt29.uut_0.INFO at time 4046600.000 ns: INFO: Cleared queued plane 0. Value 0
+# top.mt29.uut_0.INFO at time 4046600.000 ns: INFO: Cleared queued plane 1. Value 0
+# top.mt29.uut_0.INFO at time 4046620.000 ns: INFO: Page Read Confirm Set queued plane 0. Value 1
+# top.mt29.uut_0.INFO at time 4046720.000 ns: INFO: Checked queued plane 0. Value 1
+# (4071810.000 ns) Just read raddr 0000, byte de
+# (4071860.000 ns) Just read raddr 0001, byte ad
+# (4071910.000 ns) Just read raddr 0002, byte 9e
+# (4071920.000 ns) Just read raddr 0002, byte 9e
+# (4071960.000 ns) Just read raddr 0003, byte a0
+# (4071970.000 ns) Just read raddr 0003, byte a0
+# (4072010.000 ns) Just read raddr 0004, byte 9e
+# (4072060.000 ns) Just read raddr 0005, byte a0
+# (4072110.000 ns) Just read raddr 0006, byte 9e
+# (4072120.000 ns) Just read raddr 0006, byte 9e
+# (4072160.000 ns) Just read raddr 0007, byte a1
+# (4072170.000 ns) Just read raddr 0007, byte a1
+# (4072210.000 ns) Just read raddr 0008, byte 9e
+# (4072260.000 ns) Just read raddr 0009, byte a1
+# (4072310.000 ns) Just read raddr 000a, byte 9e
+# (4072320.000 ns) Just read raddr 000a, byte 9e
+# (4072360.000 ns) Just read raddr 000b, byte a0
+# (4072370.000 ns) Just read raddr 000b, byte a0
+# (4072410.000 ns) Just read raddr 000c, byte 9e
+# (4072460.000 ns) Just read raddr 000d, byte a0
+# (4072510.000 ns) Just read raddr 000e, byte 9e
+# (4072520.000 ns) Just read raddr 000e, byte 9e
+# (4072560.000 ns) Just read raddr 000f, byte a1
+# (4072570.000 ns) Just read raddr 000f, byte a1
+# (4072570.000 ns) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Done received!
+# (4072580.000 ns) Read_Page_END_WAIT state
+# (4072580.000 ns) Done!
+# (4072580.000 ns) Done!
+# (4072600.000 ns) Read_Page_END_OUTDATA raddr - 0000
+# (4072600.000 ns) 0xdead9ea0 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# expected deadbeef but got dead9ea0
+# (4072640.000 ns) Read_Page_END_OUTDATA raddr - 0004
+# (4072640.000 ns) 0x9ea09ea1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# expected deadbeef but got 9ea09ea1
+# (4072680.000 ns) Read_Page_END_OUTDATA raddr - 0008
+# (4072680.000 ns) 0x9ea19ea0 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# expected deadbeef but got 9ea19ea0
+# (4072720.000 ns) Read_Page_END_OUTDATA raddr - 000c
+# (4072720.000 ns) 0x9ea09ea1 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# expected deadbeef but got 9ea09ea1
+# last word received = 0x9ea09ea1
+# (4072770.000 ns) Out_Control state
+# (4072800.000 ns) 0x00100404 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (4072840.000 ns) 0x00000000 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ FSL_M_Write went high!
+# (4072890.000 ns) In_Control state
+# ** Note: $finish    : tb.v(132)
+#    Time: 4092730 ns  Iteration: 0  Instance: /top

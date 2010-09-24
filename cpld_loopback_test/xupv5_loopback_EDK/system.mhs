@@ -1,0 +1,23 @@
+
+ PARAMETER VERSION = 2.1.0
+
+
+ PORT TO_CPLD = lightbutton_0_To_Cpld, DIR = O
+ PORT GPIO_LED_1 = lightbutton_0_Led1_out, DIR = O
+ PORT GPIO_DIP_SW1 = lightbutton_0_Dip1_in, DIR = I
+ PORT GPIO_DIP_SW2 = lightbutton_0_Dip2_in, DIR = I
+ PORT FROM_CPLD = lightbutton_0_From_Cpld, DIR = I
+ PORT GPIO_LED_0 = lightbutton_0_Led0_out, DIR = O
+
+
+BEGIN lightbutton
+ PARAMETER INSTANCE = lightbutton_0
+ PARAMETER HW_VER = 1.00.a
+ PORT To_Cpld = lightbutton_0_To_Cpld
+ PORT Led1_out = lightbutton_0_Led1_out
+ PORT Dip1_in = lightbutton_0_Dip1_in
+ PORT Dip2_in = lightbutton_0_Dip2_in
+ PORT From_Cpld = lightbutton_0_From_Cpld
+ PORT Led0_out = lightbutton_0_Led0_out
+END
+

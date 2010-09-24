@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          C:\timSSD\nand14\pcores/nand_01_v1_00_a/data/nand_01_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Fri Dec 04 08:12:29 2009 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib nand_01_v1_00_a buffer verilog
+lib nand_01_v1_00_a counter verilog
+lib nand_01_v1_00_a nand_controller_top2 verilog
+lib nand_01_v1_00_a register verilog
+lib nand_01_v1_00_a nand_01 verilog

@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 112
+*.bak
+*.log
+__xps
+blockdiagram
+chipscope_ila_0.cdc
+implementation
+nand13-tim01.cpj
+nand13-tim02.cpj
+platgen.opt
+
+END

@@ -1,0 +1,2 @@
+NET "Wire_in"  LOC = "M1";
+NET "Wire_out" LOC = "L5";

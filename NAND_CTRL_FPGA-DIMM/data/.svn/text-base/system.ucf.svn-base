@@ -1,0 +1,105 @@
+#  XUPV5-LX110T Evaluation Platform
+
+Net fpga_0_RS232_Uart_1_RX_pin LOC = AG15  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_RS232_Uart_1_TX_pin LOC = AG20  |  IOSTANDARD=LVCMOS33;
+
+Net fpga_0_RS232_Uart_2_RX_pin LOC=G10  |  IOSTANDARD = LVCMOS33;
+Net fpga_0_RS232_Uart_2_TX_pin LOC=F10  |  IOSTANDARD = LVCMOS33;
+
+
+
+
+
+Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin  |  LOC = AH15  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_rst_1_sys_rst_pin TIG;
+Net fpga_0_rst_1_sys_rst_pin LOC = E9  |  IOSTANDARD=LVCMOS33  |  PULLUP;
+
+## NEW MAPPINGS TO INCLUDE ALL 4 NAND CHIPS -- wconstab 5/4/2010 ##
+##
+## Compare to official XUPv5 UCF file or accuracy of DIMM signal name - LOC mapping
+## 
+## Only mapped NAND 3, which is the only chip with HW modified for pullups at this point
+##
+## Map other chips based on the schematic for the DIMM, which links NAND sig name to DIMM sig name
+
+ 
+#Net nand_plb_to_mb_0_nand_01_rb2_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_rb1_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_re_L_pin           LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_ce1_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_ce2_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_cle_pin            LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_ale_pin            LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_we_L_pin           LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+##Net wp_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_iodir_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_01_io<0>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_io<1>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_01_io<2>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_01_io<3>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_01_io<4>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_01_io<5>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_01_io<6>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_01_io<7>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#
+#Net nand_plb_to_mb_0_nand_02_rb2_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_rb1_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_re_L_pin           LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_ce1_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_ce2_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_cle_pin            LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_ale_pin            LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_we_L_pin           LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+##Net wp_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_iodir_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<0>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<1>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<2>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<3>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<4>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<5>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<6>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_02_io<7>              LOC =   | IOSTANDARD=LVCMOS18; #DIMM
+
+
+
+Net nand_plb_to_mb_0_nand_03_rb2_L_pin          LOC = w31   | IOSTANDARD=LVCMOS18; #DIMM 73 DQ26
+Net nand_plb_to_mb_0_nand_03_rb1_L_pin          LOC = w27   | IOSTANDARD=LVCMOS18; #DIMM 74 DQ31
+Net nand_plb_to_mb_0_nand_03_re_L_pin           LOC = aj27  | IOSTANDARD=LVCMOS18; #DIMM 49 DQS2_N
+Net nand_plb_to_mb_0_nand_03_ce1_L_pin          LOC = ak26  | IOSTANDARD=LVCMOS18; #DIMM 51 DQS2_P #
+Net nand_plb_to_mb_0_nand_03_ce2_L_pin          LOC = y24   | IOSTANDARD=LVCMOS18; #DIMM 52 DM2
+Net nand_plb_to_mb_0_nand_03_cle_pin            LOC = v29   | IOSTANDARD=LVCMOS18; #DIMM 123 DQ32
+Net nand_plb_to_mb_0_nand_03_ale_pin            LOC = v28   | IOSTANDARD=LVCMOS18; #DIMM 124 DQ36
+Net nand_plb_to_mb_0_nand_03_we_L_pin           LOC = y27   | IOSTANDARD=LVCMOS18; #DIMM 125 DQ33
+#Net wp_L_pin          LOC = w25   | IOSTANDARD=LVCMOS18; #DIMM
+Net nand_plb_to_mb_0_nand_03_iodir_pin          LOC = l25   | IOSTANDARD=LVCMOS18; #DIMM 192 DQ62
+Net nand_plb_to_mb_0_nand_03_io<0>              LOC = w26   | IOSTANDARD=LVCMOS18; #DIMM 134 DQ38
+Net nand_plb_to_mb_0_nand_03_io<1>              LOC = y26   | IOSTANDARD=LVCMOS18; #DIMM 125 DQ34
+Net nand_plb_to_mb_0_nand_03_io<2>              LOC = v24   | IOSTANDARD=LVCMOS18; #DIMM 136 DQ39
+Net nand_plb_to_mb_0_nand_03_io<3>              LOC = w24   | IOSTANDARD=LVCMOS18; #DIMM 137 DQ35
+Net nand_plb_to_mb_0_nand_03_io<4>              LOC = t24   | IOSTANDARD=LVCMOS18; #DIMM 140 DQ44
+Net nand_plb_to_mb_0_nand_03_io<5>              LOC = r24   | IOSTANDARD=LVCMOS18; #DIMM 141 DQ40
+Net nand_plb_to_mb_0_nand_03_io<6>              LOC = n25   | IOSTANDARD=LVCMOS18; #DIMM 142 DQ45
+Net nand_plb_to_mb_0_nand_03_io<7>              LOC = p25   | IOSTANDARD=LVCMOS18; #DIMM 143 DQ41
+
+
+#Net nand_plb_to_mb_0_nand_04_rb2_L_pin          LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_rb1_L_pin          LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_re_L_pin           LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_ce1_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_ce2_L_pin          LOC =   | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_cle_pin            LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_ale_pin            LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_we_L_pin           LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+##Net wp_L_pin          LOC =    | IOSTANDARD=LVCMOS18; #DIMM 126 DQ37
+#Net nand_plb_to_mb_0_nand_04_iodir_pin          LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<0>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM
+#Net nand_plb_to_mb_0_nand_04_io<1>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<2>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<3>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<4>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<5>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<6>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 
+#Net nand_plb_to_mb_0_nand_04_io<7>              LOC =    | IOSTANDARD=LVCMOS18; #DIMM 

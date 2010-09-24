@@ -1,0 +1,70 @@
+#  XUPV5-LX110T Evaluation Platform
+Net fpga_0_RS232_Uart_1_RX_pin LOC = AG15  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_RS232_Uart_1_TX_pin LOC = AG20  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_RS232_Uart_2_RX_pin LOC=G10  |  IOSTANDARD = LVCMOS33;
+Net fpga_0_RS232_Uart_2_TX_pin LOC=F10  |  IOSTANDARD = LVCMOS33;
+Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin  |  LOC = AH15  |  IOSTANDARD=LVCMOS33;
+Net fpga_0_rst_1_sys_rst_pin TIG;
+Net fpga_0_rst_1_sys_rst_pin LOC = E9  |  IOSTANDARD=LVCMOS33  |  PULLUP;
+
+
+#mapped correct locations to nets for Logic Analyzer experiment (wconstab, 2-18-2010)
+Net nand_01_0_n_rb2_l_pin      LOC = H33 | IOSTANDARD=LVCMOS33 | PULLUP; #XUPV5 HDR1:2
+##Net nand_01_0_n_rb2_l_pin      LOC = AH34 | IOSTANDARD=LVCMOS33;      #XUPV5 HDR1:36
+Net nand_01_0_n_rb1_l_pin      LOC = F34 | IOSTANDARD=LVCMOS33 | PULLUP; #XUPV5 HDR1:4
+Net nand_01_0_n_re_l_pin       LOC = H34 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:6
+Net nand_01_0_n_ce1_l_pin      LOC = G32 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:10
+Net nand_01_0_n_ce2_l_pin      LOC = J32 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:14
+Net nand_01_0_n_cle_pin        LOC = J34 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:16
+Net nand_01_0_n_ale_pin        LOC = M32 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:20
+Net nand_01_0_n_we_l_pin       LOC = N34 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:24
+#Net nand_01_0_n_wp_l_pin       LOC =  | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:--
+
+Net nand_01_0_n_o_pin<0>          LOC = Y32 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:32
+Net nand_01_0_n_o_pin<1>          LOC = AH34 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:36
+Net nand_01_0_n_o_pin<2>          LOC = AG32 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:40
+Net nand_01_0_n_o_pin<3>          LOC = AK34 | IOSTANDARD=LVCMOS33;#XUPV5 HDR1:44
+Net nand_01_0_n_o_pin<4>          LOC = AJ32 | IOSTANDARD=LVCMOS33;#XUPV5 HDR1:48
+Net nand_01_0_n_o_pin<5>          LOC = AL34 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:52
+Net nand_01_0_n_o_pin<6>          LOC = AM33 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:56
+Net nand_01_0_n_o_pin<7>          LOC = AM32 | IOSTANDARD=LVCMOS33; #XUPV5 HDR1:60
+
+
+#commented this out- unsure...
+#Net nand_01_0_t_rb1_l_pin		LOC = AH34 | IOSTANDARD=LVCMOS33; 
+
+#Net nand_01_0_n_rb1_l_pin      LOC = AH34 | IOSTANDARD=LVCMOS33 | PULLUP;
+#Net nand_01_0_n_rb1_l_pin      LOC = H33 | IOSTANDARD=LVCMOS33;
+
+
+#Net nand_01_0_n_rb2_l_pin      LOC = AH28 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_rb1_l_pin      LOC = AG28 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_re_l_pin       LOC = AJ31 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_ce1_l_pin      LOC = AA30 | IOSTANDARD=LVCMOS18; 
+#Net nand_01_0_n_ce2_l_pin      LOC = AA29 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_cle_pin        LOC = AJ30 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_ale_pin        LOC = AF30 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_we_l_pin       LOC = AF29 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_wp_l_pin       LOC = AK31 | IOSTANDARD=LVCMOS18;
+#
+#Net nand_01_0_n_o_pin<0>          LOC = AD29 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_o_pin<1>          LOC = AE29 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_o_pin<2>          LOC = AF31 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_o_pin<3>          LOC = AD30 | IOSTANDARD=LVCMOS18; 
+#Net nand_01_0_n_o_pin<4>          LOC = AG25 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_o_pin<5>          LOC = AJ26 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_o_pin<6>          LOC = AH27 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_o_pin<7>          LOC = AF28 | IOSTANDARD=LVCMOS18; 
+#
+#Net nand_01_0_n_i_pin<0>          LOC = AC27 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_i_pin<1>          LOC = AB27 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_i_pin<2>          LOC = AA26 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_i_pin<3>          LOC = AA25 | IOSTANDARD=LVCMOS18; 
+#Net nand_01_0_n_i_pin<4>          LOC = AC29 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_i_pin<5>          LOC = AC30 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_i_pin<6>          LOC = AB30 | IOSTANDARD=LVCMOS18;
+#Net nand_01_0_n_i_pin<7>          LOC = W29 | IOSTANDARD=LVCMOS18; 
+#
+#Net nand_01_0_n_io_dir_pin     LOC = J24 | IOSTANDARD=LVCMOS18;

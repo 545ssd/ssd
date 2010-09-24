@@ -1,0 +1,127 @@
+9
+
+dir
+38
+svn+ssh://chemesvr3.cheme.cmu.edu/home/svn/ssd_repo/CPLD_NAND_CTRL/CPLD_NAND_CTRL_xdb/tmp/ise/__REGISTRY__
+svn+ssh://chemesvr3.cheme.cmu.edu/home/svn/ssd_repo
+
+
+
+2010-05-04T23:59:09.677294Z
+34
+wconstab
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+47a4c246-6072-47d7-b7fe-88d581e8f170
+
+ProjectNavigator
+dir
+
+ProjectNavigator11
+dir
+
+cpldfit
+dir
+
+vlogcomp
+dir
+
+ProjectNavigatorGui
+dir
+
+ngcbuild
+dir
+
+XSLTProcess
+dir
+
+taengine
+dir
+
+platgen
+dir
+
+Autonym
+dir
+
+trce
+dir
+
+libgen
+dir
+
+bitinit
+dir
+
+fuse
+dir
+
+xreport
+dir
+
+hprep6
+dir
+
+bitgen
+dir
+
+tsim
+dir
+
+map
+dir
+
+idem
+dir
+
+netgen
+dir
+
+ngc2edif
+dir
+
+par
+dir
+
+simgen
+dir
+
+dumpngdio
+dir
+
+common
+dir
+
+ngdbuild
+dir
+
+_ProjRepoInternal_
+dir
+
+xpwr
+dir
+
+HierarchicalDesign
+dir
+
+runner
+dir
+
+vhpcomp
+dir
+
+xst
+dir
+
